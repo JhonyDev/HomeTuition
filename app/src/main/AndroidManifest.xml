@@ -10,25 +10,25 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.HomeTuition">
         <activity
-            android:name=".activities_7_9.Urdu79"
+            android:name=".activities.activities_7_9.Urdu79"
             android:exported="true" />
         <activity
-            android:name=".activities_7_9.Math79"
+            android:name=".activities.activities_7_9.Math79"
             android:exported="true" />
         <activity
-            android:name=".activities_7_9.English79"
+            android:name=".activities.activities_7_9.English79"
             android:exported="true" />
         <activity
-            android:name=".activities_4_7.Urdu47"
+            android:name=".activities.activities_4_7.Urdu47"
             android:exported="true" />
         <activity
-            android:name=".activities_4_7.English47"
+            android:name=".activities.activities_4_7.English47"
             android:exported="true" />
         <activity
-            android:name=".activities_4_7.Math47"
+            android:name=".activities.activities_4_7.Math47"
             android:exported="true" />
         <activity
-            android:name=".MainActivity"
+            android:name=".activities.MainActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

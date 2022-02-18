@@ -1,18 +1,18 @@
-package com.app.hometuition.activities_7_9;
-
-import androidx.appcompat.app.AppCompatActivity;
+package com.app.hometuition.activities.activities_7_9;
 
 import android.os.Bundle;
 import android.view.View;
 
+import androidx.appcompat.app.AppCompatActivity;
+
 import com.app.hometuition.R;
 
-public class Math79 extends AppCompatActivity {
+public class Urdu79 extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_math79);
+        setContentView(R.layout.activity_urdu79);
     }
 
     public void back(View view) {

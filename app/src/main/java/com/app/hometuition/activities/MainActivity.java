@@ -1,4 +1,4 @@
-package com.app.hometuition;
+package com.app.hometuition.activities;
 
 import android.app.Dialog;
 import android.content.Intent;
@@ -8,12 +8,13 @@ import android.view.View;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.cardview.widget.CardView;
 
-import com.app.hometuition.activities_4_7.English47;
-import com.app.hometuition.activities_4_7.Math47;
-import com.app.hometuition.activities_4_7.Urdu47;
-import com.app.hometuition.activities_7_9.English79;
-import com.app.hometuition.activities_7_9.Math79;
-import com.app.hometuition.activities_7_9.Urdu79;
+import com.app.hometuition.R;
+import com.app.hometuition.activities.activities_4_7.English47;
+import com.app.hometuition.activities.activities_4_7.Math47;
+import com.app.hometuition.activities.activities_4_7.Urdu47;
+import com.app.hometuition.activities.activities_7_9.English79;
+import com.app.hometuition.activities.activities_7_9.Math79;
+import com.app.hometuition.activities.activities_7_9.Urdu79;
 import com.app.hometuition.utils.DialogUtils;
 
 public class MainActivity extends AppCompatActivity {

@@ -1,4 +1,4 @@
-package com.app.hometuition.activities_4_7;
+package com.app.hometuition.activities.activities_4_7;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -7,12 +7,12 @@ import android.view.View;
 
 import com.app.hometuition.R;
 
-public class Math47 extends AppCompatActivity {
+public class Urdu47 extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_math47);
+        setContentView(R.layout.activity_urdu_4_7);
     }
 
     public void back(View view) {
