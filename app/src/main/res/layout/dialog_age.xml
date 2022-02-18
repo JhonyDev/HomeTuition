@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        app:cardBackgroundColor="@color/purple_shade"
+        app:cardCornerRadius="20dp"
+        app:cardElevation="5dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="20sp"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <com.airbnb.lottie.LottieAnimationView
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_gravity="center"
+                android:layout_marginStart="20sp"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="20sp"
+                android:gravity="start"
+                app:lottie_speed="0.5"
+                android:textColor="@color/white"
+                android:textSize="18sp"
+                app:lottie_autoPlay="true"
+                app:lottie_rawRes="@raw/trilo_4"
+                app:lottie_repeatCount="99999"
+                app:lottie_repeatMode="restart" />
+
+            <TextView
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/architects_daughter"
+                android:text="@string/select_age_group_to_continue"
+                android:textColor="@color/black"
+                android:gravity="center"
+                android:textSize="28sp"
+                android:textStyle="bold" />
+
+            <com.google.android.material.card.MaterialCardView
+                android:id="@+id/cv_age_4_7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:layout_marginTop="10dp"
+                android:text="@string/loading"
+                android:textColor="@color/black"
+                android:textSize="18sp"
+                app:cardBackgroundColor="@color/orange_shade"
+                app:cardCornerRadius="20dp"
+                app:cardElevation="0dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:fontFamily="@font/architects_daughter"
+                    android:gravity="center"
+                    android:padding="10dp"
+                    android:text="Age 4 - 7"
+                    android:textColor="@color/black"
+                    android:textSize="25sp"
+                    android:textStyle="bold" />
+
+
+            </com.google.android.material.card.MaterialCardView>
+
+            <com.google.android.material.card.MaterialCardView
+                android:id="@+id/cv_age_7_9"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:gravity="center"
+                android:text="@string/loading"
+                android:textColor="@color/black"
+                android:textSize="18sp"
+                app:cardBackgroundColor="@color/yellow_shade"
+                app:cardCornerRadius="20dp"
+                app:cardElevation="0dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:fontFamily="@font/architects_daughter"
+                    android:gravity="center"
+                    android:padding="10dp"
+                    android:text="Age 7 - 9"
+                    android:textColor="@color/black"
+                    android:textSize="25sp"
+                    android:textStyle="bold" />
+            </com.google.android.material.card.MaterialCardView>
+
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

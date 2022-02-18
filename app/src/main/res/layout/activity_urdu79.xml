@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activities_7_9.Urdu79">
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cv"
+        android:layout_width="500dp"
+        android:layout_height="540dp"
+        android:scaleX="2"
+        android:translationY="-450dp"
+        app:cardBackgroundColor="@color/orange_shade"
+        app:cardCornerRadius="300dp"
+        app:cardElevation="0dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:fontFamily="@font/architects_daughter"
+        android:onClick="back"
+        android:scaleX="1.5"
+        android:textColor="@color/orange"
+        android:textSize="35sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/textView2"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/textView2" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:fontFamily="@font/architects_daughter"
+        android:onClick="back"
+        android:text="@string/urdu"
+        android:textColor="@color/orange"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:translationY="-450dp"
+        app:layout_constraintTop_toBottomOf="@id/cv">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="200dp"
+                android:layout_height="200dp"
+                android:layout_gravity="center"
+                app:cardBackgroundColor="@color/green"
+                app:cardCornerRadius="100dp">
+
+                <com.airbnb.lottie.LottieAnimationView
+                    android:id="@+id/lotie2"
+                    android:layout_width="match_parent"
+                    android:layout_height="250dp"
+                    android:scaleX="1.3"
+                    android:scaleY="1.3"
+                    android:layout_gravity="center"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:lottie_autoPlay="true"
+                    app:lottie_enableMergePathsForKitKatAndAbove="true"
+                    app:lottie_imageAssetsFolder="images/"
+                    app:lottie_rawRes="@raw/bismillah"
+                    app:lottie_repeatCount="99999"
+                    app:lottie_repeatMode="reverse" />
+            </androidx.cardview.widget.CardView>
+
+            <com.google.android.material.card.MaterialCardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="20dp"
+                android:layout_marginTop="30dp"
+                app:cardBackgroundColor="@color/yellow_shade"
+                app:cardCornerRadius="20dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:fontFamily="@font/architects_daughter"
+                    android:gravity="center"
+                    android:padding="10dp"
+                    android:text="GRAMMAR"
+                    android:textColor="@color/black"
+                    android:textSize="25sp" />
+            </com.google.android.material.card.MaterialCardView>
+
+            <com.google.android.material.card.MaterialCardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="20dp"
+                android:layout_marginTop="10dp"
+                app:cardBackgroundColor="@color/green_shade"
+                app:cardCornerRadius="20dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:fontFamily="@font/architects_daughter"
+                    android:gravity="center"
+                    android:padding="10dp"
+                    android:text="JOR TOR"
+                    android:textColor="@color/black"
+                    android:textSize="25sp" />
+            </com.google.android.material.card.MaterialCardView>
+
+            <com.google.android.material.card.MaterialCardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="20dp"
+                android:layout_marginTop="10dp"
+                app:cardBackgroundColor="@color/purple_shade"
+                app:cardCornerRadius="20dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:fontFamily="@font/architects_daughter"
+                    android:gravity="center"
+                    android:padding="10dp"
+                    android:text="STORY READING"
+                    android:textColor="@color/black"
+                    android:textSize="25sp" />
+            </com.google.android.material.card.MaterialCardView>
+
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
