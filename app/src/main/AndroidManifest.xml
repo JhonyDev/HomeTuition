@@ -10,6 +10,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.HomeTuition">
         <activity
+            android:name=".activities.activities_4_7.EnglishAlphabets"
+            android:exported="true" />
+        <activity
             android:name=".activities.activities_7_9.Urdu79"
             android:exported="true" />
         <activity

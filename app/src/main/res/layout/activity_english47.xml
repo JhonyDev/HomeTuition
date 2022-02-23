@@ -79,6 +79,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginHorizontal="20dp"
+                android:onClick="alphabets"
                 android:layout_marginTop="10dp"
                 app:cardBackgroundColor="@color/yellow_shade"
                 app:cardCornerRadius="20dp">
@@ -100,6 +101,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginHorizontal="20dp"
                 android:layout_marginTop="10dp"
+                android:onClick="colorIdentification"
                 app:cardBackgroundColor="@color/green_shade"
                 app:cardCornerRadius="20dp">
 
@@ -120,6 +122,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginHorizontal="20dp"
                 android:layout_marginTop="10dp"
+                android:onClick="spellings"
                 app:cardBackgroundColor="@color/purple_shade"
                 app:cardCornerRadius="20dp">
 
@@ -140,6 +143,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginHorizontal="20dp"
                 android:layout_marginTop="10dp"
+                android:onClick="formalization"
                 app:cardBackgroundColor="@color/orange_shade"
                 app:cardCornerRadius="20dp">
 
@@ -160,6 +164,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginHorizontal="20dp"
                 android:layout_marginTop="10dp"
+                android:onClick="days"
                 app:cardBackgroundColor="@color/yellow_shade"
                 app:cardCornerRadius="20dp">
 

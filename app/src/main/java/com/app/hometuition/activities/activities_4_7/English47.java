@@ -1,9 +1,10 @@
 package com.app.hometuition.activities.activities_4_7;
 
-import androidx.appcompat.app.AppCompatActivity;
-
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
+
+import androidx.appcompat.app.AppCompatActivity;
 
 import com.app.hometuition.R;
 
@@ -17,5 +18,24 @@ public class English47 extends AppCompatActivity {
 
     public void back(View view) {
         finish();
+    }
+
+    public void alphabets(View view) {
+        startActivity(new Intent(this, EnglishAlphabets.class));
+    }
+
+    public void colorIdentification(View view) {
+
+    }
+
+    public void spellings(View view) {
+    }
+
+    public void formalization(View view) {
+
+    }
+
+    public void days(View view) {
+
     }
 }
