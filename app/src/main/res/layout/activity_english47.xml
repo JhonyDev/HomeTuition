@@ -50,10 +50,12 @@
 
     <ScrollView
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="10dp"
-        android:translationY="-450dp"
-        app:layout_constraintTop_toBottomOf="@id/cv">
+        android:layout_height="match_parent"
+        android:layout_marginTop="100dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -79,8 +81,8 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginHorizontal="20dp"
-                android:onClick="alphabets"
                 android:layout_marginTop="10dp"
+                android:onClick="alphabets"
                 app:cardBackgroundColor="@color/yellow_shade"
                 app:cardCornerRadius="20dp">
 
@@ -175,7 +177,29 @@
                     android:fontFamily="@font/architects_daughter"
                     android:gravity="center"
                     android:padding="10dp"
-                    android:text="NAME OF DAYS AND MONTHS"
+                    android:text="NAME OF DAYS"
+                    android:textColor="@color/black"
+                    android:textSize="25sp" />
+            </com.google.android.material.card.MaterialCardView>
+
+            <com.google.android.material.card.MaterialCardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="20dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="50dp"
+                android:onClick="months"
+                app:cardBackgroundColor="@color/green_shade"
+                app:cardCornerRadius="20dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:fontFamily="@font/architects_daughter"
+                    android:gravity="center"
+                    android:padding="10dp"
+                    android:text="NAME OF MONTHS"
                     android:textColor="@color/black"
                     android:textSize="25sp" />
             </com.google.android.material.card.MaterialCardView>

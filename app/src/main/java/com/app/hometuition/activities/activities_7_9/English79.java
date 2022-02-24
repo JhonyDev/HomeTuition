@@ -1,5 +1,6 @@
 package com.app.hometuition.activities.activities_7_9;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 
@@ -17,5 +18,9 @@ public class English79 extends AppCompatActivity {
 
     public void back(View view) {
         finish();
+    }
+
+    public void sentences(View view) {
+        startActivity(new Intent(this, EnglishSentences.class));
     }
 }

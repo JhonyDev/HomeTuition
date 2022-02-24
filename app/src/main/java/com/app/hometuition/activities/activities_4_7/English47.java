@@ -30,14 +30,18 @@ public class English47 extends AppCompatActivity {
 
     public void spellings(View view) {
         startActivity(new Intent(this, EnglishSpellings.class));
-
     }
 
     public void formalization(View view) {
-
+        startActivity(new Intent(this, EnglishObjects.class));
     }
 
     public void days(View view) {
+        startActivity(new Intent(this, EnglishDays.class));
 
+    }
+
+    public void months(View view) {
+        startActivity(new Intent(this, EnglishMonths.class));
     }
 }
