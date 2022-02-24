@@ -21,5 +21,6 @@
     <string name="lambda"><![CDATA[->]]></string>
     <string name="lambda_back"><![CDATA[<-]]></string>
     <string name="english_alphabets">English Alphabets</string>
+    <string name="primary_colors">Primary Colors</string>
 
 </resources>

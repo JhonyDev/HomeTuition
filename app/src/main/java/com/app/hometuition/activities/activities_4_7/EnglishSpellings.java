@@ -1,6 +1,7 @@
 package com.app.hometuition.activities.activities_4_7;
 
 import android.os.Bundle;
+import android.os.Handler;
 import android.view.View;
 import android.widget.LinearLayout;
 
@@ -12,21 +13,21 @@ import com.app.hometuition.utils.Utils;
 import java.util.ArrayList;
 import java.util.List;
 
-public class EnglishAlphabets extends AppCompatActivity {
+public class EnglishSpellings extends AppCompatActivity {
     int selectedLayout = 0;
     List<LinearLayout> llList;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_english_alphabets);
+        setContentView(R.layout.activity_english_spellings);
         initLayouts();
         refreshLayouts();
     }
 
     private void initLayouts() {
         llList = new ArrayList<>();
-        for (int i = 1; i <= 26; i++)
+        for (int i = 1; i <= 8; i++)
             llList.add(findViewById(getResources()
                     .getIdentifier("ll_" + i, "id", getPackageName())));
     }
@@ -48,9 +49,8 @@ public class EnglishAlphabets extends AppCompatActivity {
 
     public void next(View view) {
         selectedLayout += 1;
-        if (selectedLayout > 25)
+        if (selectedLayout > 7)
             selectedLayout = 0;
         refreshLayouts();
     }
-
 }

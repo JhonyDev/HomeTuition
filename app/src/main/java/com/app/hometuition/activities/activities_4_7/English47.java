@@ -25,10 +25,12 @@ public class English47 extends AppCompatActivity {
     }
 
     public void colorIdentification(View view) {
-
+        startActivity(new Intent(this, EnglishColors.class));
     }
 
     public void spellings(View view) {
+        startActivity(new Intent(this, EnglishSpellings.class));
+
     }
 
     public void formalization(View view) {

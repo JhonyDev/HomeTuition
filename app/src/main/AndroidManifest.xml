@@ -10,6 +10,12 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.HomeTuition">
         <activity
+            android:name=".activities.activities_4_7.EnglishSpellings"
+            android:exported="true" />
+        <activity
+            android:name=".activities.activities_4_7.EnglishColors"
+            android:exported="true" />
+        <activity
             android:name=".activities.activities_4_7.EnglishAlphabets"
             android:exported="true" />
         <activity

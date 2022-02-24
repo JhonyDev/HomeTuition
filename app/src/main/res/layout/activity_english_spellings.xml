@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".activities.activities_4_7.EnglishAlphabets">
+    tools:context=".activities.activities_4_7.EnglishSpellings">
 
     <androidx.cardview.widget.CardView
         android:id="@+id/cv"
@@ -40,7 +40,7 @@
         android:layout_marginTop="20dp"
         android:fontFamily="@font/architects_daughter"
         android:onClick="back"
-        android:text="@string/english_alphabets"
+        android:text="Spellings"
         android:textColor="@color/orange"
         android:textSize="30sp"
         android:textStyle="bold"
@@ -60,160 +60,54 @@
         app:layout_constraintTop_toTopOf="parent">
 
         <include
-            layout="@layout/a_layout"
+            layout="@layout/spell_layout_1"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_gravity="center" />
 
         <include
-            layout="@layout/b_layout"
+            layout="@layout/spell_layout_2"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_gravity="center" />
 
         <include
-            layout="@layout/c_layout"
+            layout="@layout/spell_layout_3"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_gravity="center" />
 
         <include
-            layout="@layout/d_layout"
+            layout="@layout/spell_layout_4"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_gravity="center" />
 
         <include
-            layout="@layout/e_layout"
+            layout="@layout/spell_layout_5"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_gravity="center" />
 
         <include
-            layout="@layout/f_layout"
+            layout="@layout/spell_layout_6"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_gravity="center" />
 
         <include
-            layout="@layout/g_layout"
+            layout="@layout/spell_layout_7"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_gravity="center" />
 
         <include
-            layout="@layout/h_layout"
+            layout="@layout/spell_layout_8"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_gravity="center" />
 
-        <include
-            layout="@layout/i_layout"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_gravity="center" />
 
-        <include
-            layout="@layout/j_layout"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_gravity="center" />
-
-        <include
-            layout="@layout/k_layout"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_gravity="center" />
-
-        <include
-            layout="@layout/l_layout"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_gravity="center" />
-
-        <include
-            layout="@layout/m_layout"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_gravity="center" />
-
-        <include
-            layout="@layout/n_layout"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_gravity="center" />
-
-        <include
-            layout="@layout/o_layout"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_gravity="center" />
-
-        <include
-            layout="@layout/p_layout"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_gravity="center" />
-
-        <include
-            layout="@layout/q_layout"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_gravity="center" />
-
-        <include
-            layout="@layout/r_layout"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_gravity="center" />
-
-        <include
-            layout="@layout/s_layout"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_gravity="center" />
-
-        <include
-            layout="@layout/t_layout"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_gravity="center" />
-
-        <include
-            layout="@layout/u_layout"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_gravity="center" />
-
-        <include
-            layout="@layout/v_layout"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_gravity="center" />
-
-        <include
-            layout="@layout/w_layout"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_gravity="center" />
-
-        <include
-            layout="@layout/x_layout"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_gravity="center" />
-
-        <include
-            layout="@layout/y_layout"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_gravity="center" />
-
-        <include
-            layout="@layout/z_layout"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_gravity="center" />
     </FrameLayout>
 
 
