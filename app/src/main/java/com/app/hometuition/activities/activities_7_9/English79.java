@@ -23,4 +23,12 @@ public class English79 extends AppCompatActivity {
     public void sentences(View view) {
         startActivity(new Intent(this, EnglishSentences.class));
     }
+
+    public void grammar(View view) {
+        startActivity(new Intent(this, EnglishGrammar.class));
+    }
+
+    public void phonics(View view) {
+        startActivity(new Intent(this, EnglishPhonics.class));
+    }
 }

@@ -30,6 +30,7 @@
         android:layout_gravity="center"
         android:layout_marginTop="50dp"
         android:fontFamily="@font/architects_daughter"
+        android:gravity="center"
         android:text="WHO IS THAT BOY?"
         android:textColor="@android:color/holo_red_dark"
         android:textSize="40sp"

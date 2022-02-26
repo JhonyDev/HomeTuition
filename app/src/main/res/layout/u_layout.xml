@@ -13,6 +13,7 @@
         android:src="@drawable/u" />
 
     <ImageView
+        android:id="@+id/anim20"
         android:layout_width="200dp"
         android:layout_height="200dp"
         android:layout_gravity="center"

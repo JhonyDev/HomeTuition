@@ -24,7 +24,6 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="20dp"
         android:fontFamily="@font/architects_daughter"
-        android:onClick="back"
         android:scaleX="1.5"
         android:textColor="@color/orange"
         android:textSize="35sp"
@@ -39,7 +38,6 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="20dp"
         android:fontFamily="@font/architects_daughter"
-        android:onClick="back"
         android:text="@string/primary_colors"
         android:textColor="@color/orange"
         android:textSize="30sp"
@@ -49,10 +47,10 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <FrameLayout
+        android:id="@+id/fl"
         android:layout_width="match_parent"
         android:layout_height="600dp"
         android:gravity="center"
-        android:onClick="next"
         android:orientation="vertical"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -94,12 +92,12 @@
         app:layout_constraintTop_toBottomOf="parent" />
 
     <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/next"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="end"
         android:background="@android:color/transparent"
         android:fontFamily="@font/architects_daughter"
-        android:onClick="next"
         android:text="@string/lambda"
         android:textColor="@color/brown"
         android:textSize="55sp"
@@ -108,12 +106,12 @@
         app:layout_constraintEnd_toEndOf="parent" />
 
     <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/prev"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="end"
         android:background="@android:color/transparent"
         android:fontFamily="@font/architects_daughter"
-        android:onClick="prev"
         android:text="@string/lambda_back"
         android:textColor="@color/brown"
         android:textSize="55sp"
