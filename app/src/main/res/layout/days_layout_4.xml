@@ -22,7 +22,7 @@
             android:orientation="vertical">
 
             <ImageView
-                android:layout_width="match_parent"
+android:id="@+id/anim23"                android:layout_width="match_parent"
                 android:layout_height="200dp"
                 android:layout_gravity="center"
                 android:background="@color/white"
@@ -38,7 +38,7 @@
             android:orientation="vertical">
 
             <ImageView
-                android:layout_width="match_parent"
+android:id="@+id/anim24"                android:layout_width="match_parent"
                 android:layout_height="200dp"
                 android:layout_gravity="center"
                 android:background="@color/white"
@@ -54,7 +54,7 @@
             android:orientation="vertical">
 
             <ImageView
-                android:layout_width="match_parent"
+android:id="@+id/anim25"                android:layout_width="match_parent"
                 android:layout_height="200dp"
                 android:layout_gravity="center"
                 android:background="@color/white"
@@ -70,7 +70,7 @@
             android:orientation="vertical">
 
             <ImageView
-                android:layout_width="match_parent"
+android:id="@+id/anim26"                android:layout_width="match_parent"
                 android:layout_height="200dp"
                 android:layout_gravity="center"
                 android:background="@color/white"
@@ -85,7 +85,7 @@
             android:orientation="vertical">
 
             <ImageView
-                android:layout_width="match_parent"
+android:id="@+id/anim27"                android:layout_width="match_parent"
                 android:layout_height="200dp"
                 android:layout_gravity="center"
                 android:background="@color/white"
@@ -101,7 +101,7 @@
             android:orientation="vertical">
 
             <ImageView
-                android:layout_width="match_parent"
+android:id="@+id/anim28"                android:layout_width="match_parent"
                 android:layout_height="200dp"
                 android:layout_gravity="center"
                 android:background="@color/white"
@@ -118,7 +118,7 @@
             android:orientation="vertical">
 
             <ImageView
-                android:layout_width="match_parent"
+android:id="@+id/anim29"                android:layout_width="match_parent"
                 android:layout_height="200dp"
                 android:layout_gravity="center"
                 android:background="@color/white"
@@ -135,7 +135,7 @@
             android:orientation="vertical">
 
             <ImageView
-                android:layout_width="match_parent"
+android:id="@+id/anim30"                android:layout_width="match_parent"
                 android:layout_height="200dp"
                 android:layout_gravity="center"
                 android:background="@color/white"

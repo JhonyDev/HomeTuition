@@ -9,11 +9,11 @@ import androidx.appcompat.app.AppCompatActivity;
 import androidx.cardview.widget.CardView;
 
 import com.app.hometuition.R;
-import com.app.hometuition.activities.activities_4_7.English47;
-import com.app.hometuition.activities.activities_4_7.Math47;
+import com.app.hometuition.activities.english.English47;
+import com.app.hometuition.activities.maths.Math47;
 import com.app.hometuition.activities.activities_4_7.Urdu47;
-import com.app.hometuition.activities.activities_7_9.English79;
-import com.app.hometuition.activities.activities_7_9.Math79;
+import com.app.hometuition.activities.english.English79;
+import com.app.hometuition.activities.maths.Math79;
 import com.app.hometuition.activities.activities_7_9.Urdu79;
 import com.app.hometuition.utils.DialogUtils;
 

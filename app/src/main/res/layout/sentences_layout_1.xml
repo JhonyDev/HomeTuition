@@ -12,7 +12,7 @@
         android:layout_gravity="center"
         android:fontFamily="@font/architects_daughter"
         android:text="# 1"
-        android:textColor="@android:color/holo_red_dark"
+        android:textColor="@android:color/white"
         android:textSize="55sp"
         android:textStyle="bold" />
 
@@ -28,11 +28,11 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
-        android:gravity="center"
         android:layout_marginTop="50dp"
         android:fontFamily="@font/architects_daughter"
+        android:gravity="center"
         android:text="THIS IS A BALL"
-        android:textColor="@android:color/holo_red_dark"
+        android:textColor="@android:color/white"
         android:textSize="40sp"
         android:textStyle="bold" />
 

@@ -16,4 +16,5 @@
     <color name="yellow">#FFDD00</color>
     <color name="dark_gray">#585858</color>
     <color name="pink">#FF00D8</color>
+    <color name="red_shade">#58F44336</color>
 </resources>

@@ -12,7 +12,7 @@
         android:layout_gravity="center"
         android:fontFamily="@font/architects_daughter"
         android:text="# 4"
-        android:textColor="@android:color/holo_red_dark"
+        android:textColor="@android:color/white"
         android:textSize="55sp"
         android:textStyle="bold" />
 
@@ -32,7 +32,7 @@
         android:gravity="center"
         android:fontFamily="@font/architects_daughter"
         android:text="THAT BAG IS MINE"
-        android:textColor="@android:color/holo_red_dark"
+        android:textColor="@android:color/white"
         android:textSize="40sp"
         android:textStyle="bold" />
 

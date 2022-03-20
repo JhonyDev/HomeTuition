@@ -4,7 +4,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".activities.activities_7_9.EnglishSentences">
+    android:background="@drawable/activity_back"
+    tools:context=".activities.english.EnglishSentences">
 
     <androidx.cardview.widget.CardView
         android:id="@+id/cv"

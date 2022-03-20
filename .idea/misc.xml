@@ -14,17 +14,29 @@
         <entry key="..\:/Users/Jhony Dev/AndroidStudioProjects/HomeTuition/app/src/main/res/layout/activity_english_months.xml" value="0.16354166666666667" />
         <entry key="..\:/Users/Jhony Dev/AndroidStudioProjects/HomeTuition/app/src/main/res/layout/activity_english_objects.xml" value="0.152" />
         <entry key="..\:/Users/Jhony Dev/AndroidStudioProjects/HomeTuition/app/src/main/res/layout/activity_english_phonics.xml" value="0.152" />
-        <entry key="..\:/Users/Jhony Dev/AndroidStudioProjects/HomeTuition/app/src/main/res/layout/activity_english_sentences.xml" value="0.1" />
+        <entry key="..\:/Users/Jhony Dev/AndroidStudioProjects/HomeTuition/app/src/main/res/layout/activity_english_rhyme.xml" value="0.22083333333333333" />
+        <entry key="..\:/Users/Jhony Dev/AndroidStudioProjects/HomeTuition/app/src/main/res/layout/activity_english_sentences.xml" value="0.2" />
         <entry key="..\:/Users/Jhony Dev/AndroidStudioProjects/HomeTuition/app/src/main/res/layout/activity_english_spellings.xml" value="0.25" />
         <entry key="..\:/Users/Jhony Dev/AndroidStudioProjects/HomeTuition/app/src/main/res/layout/activity_english_spellings47.xml" value="0.25" />
         <entry key="..\:/Users/Jhony Dev/AndroidStudioProjects/HomeTuition/app/src/main/res/layout/activity_main.xml" value="0.176" />
-        <entry key="..\:/Users/Jhony Dev/AndroidStudioProjects/HomeTuition/app/src/main/res/layout/activity_math47.xml" value="0.152" />
+        <entry key="..\:/Users/Jhony Dev/AndroidStudioProjects/HomeTuition/app/src/main/res/layout/activity_math47.xml" value="0.264" />
+        <entry key="..\:/Users/Jhony Dev/AndroidStudioProjects/HomeTuition/app/src/main/res/layout/activity_math47_addition.xml" value="0.346875" />
+        <entry key="..\:/Users/Jhony Dev/AndroidStudioProjects/HomeTuition/app/src/main/res/layout/activity_math47_counting.xml" value="0.25" />
+        <entry key="..\:/Users/Jhony Dev/AndroidStudioProjects/HomeTuition/app/src/main/res/layout/activity_math47_ordinal_numbers.xml" value="0.1734375" />
+        <entry key="..\:/Users/Jhony Dev/AndroidStudioProjects/HomeTuition/app/src/main/res/layout/activity_math47_shapes.xml" value="0.1859375" />
+        <entry key="..\:/Users/Jhony Dev/AndroidStudioProjects/HomeTuition/app/src/main/res/layout/activity_math47_spelling.xml" value="0.3625" />
+        <entry key="..\:/Users/Jhony Dev/AndroidStudioProjects/HomeTuition/app/src/main/res/layout/activity_math47_subtration.xml" value="0.21302083333333333" />
         <entry key="..\:/Users/Jhony Dev/AndroidStudioProjects/HomeTuition/app/src/main/res/layout/activity_math79.xml" value="0.176" />
+        <entry key="..\:/Users/Jhony Dev/AndroidStudioProjects/HomeTuition/app/src/main/res/layout/activity_maths_add_sub.xml" value="0.2359375" />
+        <entry key="..\:/Users/Jhony Dev/AndroidStudioProjects/HomeTuition/app/src/main/res/layout/activity_maths_tables.xml" value="0.1859375" />
+        <entry key="..\:/Users/Jhony Dev/AndroidStudioProjects/HomeTuition/app/src/main/res/layout/activity_splash.xml" value="0.2" />
         <entry key="..\:/Users/Jhony Dev/AndroidStudioProjects/HomeTuition/app/src/main/res/layout/activity_urdu79.xml" value="0.1375" />
         <entry key="..\:/Users/Jhony Dev/AndroidStudioProjects/HomeTuition/app/src/main/res/layout/activity_urdu_4_7.xml" value="0.1375" />
+        <entry key="..\:/Users/Jhony Dev/AndroidStudioProjects/HomeTuition/app/src/main/res/layout/add_1.xml" value="0.264" />
         <entry key="..\:/Users/Jhony Dev/AndroidStudioProjects/HomeTuition/app/src/main/res/layout/b_layout.xml" value="0.25" />
         <entry key="..\:/Users/Jhony Dev/AndroidStudioProjects/HomeTuition/app/src/main/res/layout/blue_layout.xml" value="0.25" />
         <entry key="..\:/Users/Jhony Dev/AndroidStudioProjects/HomeTuition/app/src/main/res/layout/c_layout.xml" value="0.25" />
+        <entry key="..\:/Users/Jhony Dev/AndroidStudioProjects/HomeTuition/app/src/main/res/layout/ct_layout_1.xml" value="0.25" />
         <entry key="..\:/Users/Jhony Dev/AndroidStudioProjects/HomeTuition/app/src/main/res/layout/d_layout.xml" value="0.25" />
         <entry key="..\:/Users/Jhony Dev/AndroidStudioProjects/HomeTuition/app/src/main/res/layout/days_layout_1.xml" value="0.1" />
         <entry key="..\:/Users/Jhony Dev/AndroidStudioProjects/HomeTuition/app/src/main/res/layout/days_layout_2.xml" value="0.153125" />
@@ -62,6 +74,21 @@
         <entry key="..\:/Users/Jhony Dev/AndroidStudioProjects/HomeTuition/app/src/main/res/layout/month_layout_8.xml" value="0.16354166666666667" />
         <entry key="..\:/Users/Jhony Dev/AndroidStudioProjects/HomeTuition/app/src/main/res/layout/month_layout_9.xml" value="0.16354166666666667" />
         <entry key="..\:/Users/Jhony Dev/AndroidStudioProjects/HomeTuition/app/src/main/res/layout/n_layout.xml" value="0.25" />
+        <entry key="..\:/Users/Jhony Dev/AndroidStudioProjects/HomeTuition/app/src/main/res/layout/num_spell_1.xml" value="0.3625" />
+        <entry key="..\:/Users/Jhony Dev/AndroidStudioProjects/HomeTuition/app/src/main/res/layout/num_spell_10.xml" value="0.1875" />
+        <entry key="..\:/Users/Jhony Dev/AndroidStudioProjects/HomeTuition/app/src/main/res/layout/num_spell_15.xml" value="0.1875" />
+        <entry key="..\:/Users/Jhony Dev/AndroidStudioProjects/HomeTuition/app/src/main/res/layout/num_spell_16.xml" value="0.175" />
+        <entry key="..\:/Users/Jhony Dev/AndroidStudioProjects/HomeTuition/app/src/main/res/layout/num_spell_17.xml" value="0.175" />
+        <entry key="..\:/Users/Jhony Dev/AndroidStudioProjects/HomeTuition/app/src/main/res/layout/num_spell_24.xml" value="0.3625" />
+        <entry key="..\:/Users/Jhony Dev/AndroidStudioProjects/HomeTuition/app/src/main/res/layout/num_spell_26.xml" value="0.175" />
+        <entry key="..\:/Users/Jhony Dev/AndroidStudioProjects/HomeTuition/app/src/main/res/layout/num_spell_27.xml" value="0.175" />
+        <entry key="..\:/Users/Jhony Dev/AndroidStudioProjects/HomeTuition/app/src/main/res/layout/num_spell_31.xml" value="0.3625" />
+        <entry key="..\:/Users/Jhony Dev/AndroidStudioProjects/HomeTuition/app/src/main/res/layout/num_spell_36.xml" value="0.175" />
+        <entry key="..\:/Users/Jhony Dev/AndroidStudioProjects/HomeTuition/app/src/main/res/layout/num_spell_37.xml" value="0.175" />
+        <entry key="..\:/Users/Jhony Dev/AndroidStudioProjects/HomeTuition/app/src/main/res/layout/num_spell_40.xml" value="0.3625" />
+        <entry key="..\:/Users/Jhony Dev/AndroidStudioProjects/HomeTuition/app/src/main/res/layout/num_spell_5.xml" value="0.3625" />
+        <entry key="..\:/Users/Jhony Dev/AndroidStudioProjects/HomeTuition/app/src/main/res/layout/num_spell_6.xml" value="0.3625" />
+        <entry key="..\:/Users/Jhony Dev/AndroidStudioProjects/HomeTuition/app/src/main/res/layout/num_spell_7.xml" value="0.175" />
         <entry key="..\:/Users/Jhony Dev/AndroidStudioProjects/HomeTuition/app/src/main/res/layout/o_a_layout.xml" value="0.25" />
         <entry key="..\:/Users/Jhony Dev/AndroidStudioProjects/HomeTuition/app/src/main/res/layout/o_b_layout.xml" value="0.25" />
         <entry key="..\:/Users/Jhony Dev/AndroidStudioProjects/HomeTuition/app/src/main/res/layout/o_c_layout.xml" value="0.25" />
@@ -89,6 +116,21 @@
         <entry key="..\:/Users/Jhony Dev/AndroidStudioProjects/HomeTuition/app/src/main/res/layout/o_x_layout.xml" value="0.176" />
         <entry key="..\:/Users/Jhony Dev/AndroidStudioProjects/HomeTuition/app/src/main/res/layout/o_y_layout.xml" value="0.25" />
         <entry key="..\:/Users/Jhony Dev/AndroidStudioProjects/HomeTuition/app/src/main/res/layout/o_z_layout.xml" value="0.25" />
+        <entry key="..\:/Users/Jhony Dev/AndroidStudioProjects/HomeTuition/app/src/main/res/layout/ordinal_spell_1.xml" value="0.1875" />
+        <entry key="..\:/Users/Jhony Dev/AndroidStudioProjects/HomeTuition/app/src/main/res/layout/ordinal_spell_10.xml" value="0.1875" />
+        <entry key="..\:/Users/Jhony Dev/AndroidStudioProjects/HomeTuition/app/src/main/res/layout/ordinal_spell_11.xml" value="0.1875" />
+        <entry key="..\:/Users/Jhony Dev/AndroidStudioProjects/HomeTuition/app/src/main/res/layout/ordinal_spell_12.xml" value="0.1875" />
+        <entry key="..\:/Users/Jhony Dev/AndroidStudioProjects/HomeTuition/app/src/main/res/layout/ordinal_spell_13.xml" value="0.1875" />
+        <entry key="..\:/Users/Jhony Dev/AndroidStudioProjects/HomeTuition/app/src/main/res/layout/ordinal_spell_14.xml" value="0.1875" />
+        <entry key="..\:/Users/Jhony Dev/AndroidStudioProjects/HomeTuition/app/src/main/res/layout/ordinal_spell_15.xml" value="0.1875" />
+        <entry key="..\:/Users/Jhony Dev/AndroidStudioProjects/HomeTuition/app/src/main/res/layout/ordinal_spell_2.xml" value="0.1875" />
+        <entry key="..\:/Users/Jhony Dev/AndroidStudioProjects/HomeTuition/app/src/main/res/layout/ordinal_spell_3.xml" value="0.1875" />
+        <entry key="..\:/Users/Jhony Dev/AndroidStudioProjects/HomeTuition/app/src/main/res/layout/ordinal_spell_4.xml" value="0.1875" />
+        <entry key="..\:/Users/Jhony Dev/AndroidStudioProjects/HomeTuition/app/src/main/res/layout/ordinal_spell_5.xml" value="0.1875" />
+        <entry key="..\:/Users/Jhony Dev/AndroidStudioProjects/HomeTuition/app/src/main/res/layout/ordinal_spell_6.xml" value="0.1875" />
+        <entry key="..\:/Users/Jhony Dev/AndroidStudioProjects/HomeTuition/app/src/main/res/layout/ordinal_spell_7.xml" value="0.1875" />
+        <entry key="..\:/Users/Jhony Dev/AndroidStudioProjects/HomeTuition/app/src/main/res/layout/ordinal_spell_8.xml" value="0.1875" />
+        <entry key="..\:/Users/Jhony Dev/AndroidStudioProjects/HomeTuition/app/src/main/res/layout/ordinal_spell_9.xml" value="0.1875" />
         <entry key="..\:/Users/Jhony Dev/AndroidStudioProjects/HomeTuition/app/src/main/res/layout/p_layout.xml" value="0.25" />
         <entry key="..\:/Users/Jhony Dev/AndroidStudioProjects/HomeTuition/app/src/main/res/layout/phonics_layout_1.xml" value="0.234375" />
         <entry key="..\:/Users/Jhony Dev/AndroidStudioProjects/HomeTuition/app/src/main/res/layout/phonics_layout_2.xml" value="0.234375" />
@@ -98,19 +140,62 @@
         <entry key="..\:/Users/Jhony Dev/AndroidStudioProjects/HomeTuition/app/src/main/res/layout/q_layout.xml" value="0.25" />
         <entry key="..\:/Users/Jhony Dev/AndroidStudioProjects/HomeTuition/app/src/main/res/layout/r_layout.xml" value="0.25" />
         <entry key="..\:/Users/Jhony Dev/AndroidStudioProjects/HomeTuition/app/src/main/res/layout/red_layout.xml" value="0.25" />
+        <entry key="..\:/Users/Jhony Dev/AndroidStudioProjects/HomeTuition/app/src/main/res/layout/rhyme_layout_1.xml" value="0.22083333333333333" />
+        <entry key="..\:/Users/Jhony Dev/AndroidStudioProjects/HomeTuition/app/src/main/res/layout/rhyme_layout_2.xml" value="0.22083333333333333" />
+        <entry key="..\:/Users/Jhony Dev/AndroidStudioProjects/HomeTuition/app/src/main/res/layout/rhyme_layout_3.xml" value="0.22083333333333333" />
+        <entry key="..\:/Users/Jhony Dev/AndroidStudioProjects/HomeTuition/app/src/main/res/layout/rhyme_layout_4.xml" value="0.22083333333333333" />
+        <entry key="..\:/Users/Jhony Dev/AndroidStudioProjects/HomeTuition/app/src/main/res/layout/rhyme_layout_5.xml" value="0.22083333333333333" />
+        <entry key="..\:/Users/Jhony Dev/AndroidStudioProjects/HomeTuition/app/src/main/res/layout/rhyme_layout_6.xml" value="0.22083333333333333" />
         <entry key="..\:/Users/Jhony Dev/AndroidStudioProjects/HomeTuition/app/src/main/res/layout/s_layout.xml" value="0.25" />
         <entry key="..\:/Users/Jhony Dev/AndroidStudioProjects/HomeTuition/app/src/main/res/layout/sentences_layout_1.xml" value="0.152" />
         <entry key="..\:/Users/Jhony Dev/AndroidStudioProjects/HomeTuition/app/src/main/res/layout/sentences_layout_2.xml" value="0.2" />
         <entry key="..\:/Users/Jhony Dev/AndroidStudioProjects/HomeTuition/app/src/main/res/layout/sentences_layout_3.xml" value="0.16354166666666667" />
         <entry key="..\:/Users/Jhony Dev/AndroidStudioProjects/HomeTuition/app/src/main/res/layout/sentences_layout_4.xml" value="0.176" />
+        <entry key="..\:/Users/Jhony Dev/AndroidStudioProjects/HomeTuition/app/src/main/res/layout/shapes_layout_1.xml" value="0.1859375" />
+        <entry key="..\:/Users/Jhony Dev/AndroidStudioProjects/HomeTuition/app/src/main/res/layout/shapes_layout_2.xml" value="0.1859375" />
+        <entry key="..\:/Users/Jhony Dev/AndroidStudioProjects/HomeTuition/app/src/main/res/layout/shapes_layout_3.xml" value="0.1859375" />
+        <entry key="..\:/Users/Jhony Dev/AndroidStudioProjects/HomeTuition/app/src/main/res/layout/shapes_layout_4.xml" value="0.1859375" />
         <entry key="..\:/Users/Jhony Dev/AndroidStudioProjects/HomeTuition/app/src/main/res/layout/spell_layout_1.xml" value="0.25" />
+        <entry key="..\:/Users/Jhony Dev/AndroidStudioProjects/HomeTuition/app/src/main/res/layout/spell_layout_10.xml" value="0.3625" />
+        <entry key="..\:/Users/Jhony Dev/AndroidStudioProjects/HomeTuition/app/src/main/res/layout/spell_layout_11.xml" value="0.3625" />
+        <entry key="..\:/Users/Jhony Dev/AndroidStudioProjects/HomeTuition/app/src/main/res/layout/spell_layout_12.xml" value="0.3625" />
+        <entry key="..\:/Users/Jhony Dev/AndroidStudioProjects/HomeTuition/app/src/main/res/layout/spell_layout_13.xml" value="0.3625" />
+        <entry key="..\:/Users/Jhony Dev/AndroidStudioProjects/HomeTuition/app/src/main/res/layout/spell_layout_14.xml" value="0.3625" />
+        <entry key="..\:/Users/Jhony Dev/AndroidStudioProjects/HomeTuition/app/src/main/res/layout/spell_layout_15.xml" value="0.3625" />
+        <entry key="..\:/Users/Jhony Dev/AndroidStudioProjects/HomeTuition/app/src/main/res/layout/spell_layout_16.xml" value="0.3625" />
+        <entry key="..\:/Users/Jhony Dev/AndroidStudioProjects/HomeTuition/app/src/main/res/layout/spell_layout_17.xml" value="0.3625" />
+        <entry key="..\:/Users/Jhony Dev/AndroidStudioProjects/HomeTuition/app/src/main/res/layout/spell_layout_18.xml" value="0.3625" />
+        <entry key="..\:/Users/Jhony Dev/AndroidStudioProjects/HomeTuition/app/src/main/res/layout/spell_layout_19.xml" value="0.3625" />
         <entry key="..\:/Users/Jhony Dev/AndroidStudioProjects/HomeTuition/app/src/main/res/layout/spell_layout_2.xml" value="0.25" />
+        <entry key="..\:/Users/Jhony Dev/AndroidStudioProjects/HomeTuition/app/src/main/res/layout/spell_layout_20.xml" value="0.3625" />
+        <entry key="..\:/Users/Jhony Dev/AndroidStudioProjects/HomeTuition/app/src/main/res/layout/spell_layout_21.xml" value="0.3625" />
+        <entry key="..\:/Users/Jhony Dev/AndroidStudioProjects/HomeTuition/app/src/main/res/layout/spell_layout_22.xml" value="0.3625" />
+        <entry key="..\:/Users/Jhony Dev/AndroidStudioProjects/HomeTuition/app/src/main/res/layout/spell_layout_23.xml" value="0.3625" />
+        <entry key="..\:/Users/Jhony Dev/AndroidStudioProjects/HomeTuition/app/src/main/res/layout/spell_layout_24.xml" value="0.3625" />
+        <entry key="..\:/Users/Jhony Dev/AndroidStudioProjects/HomeTuition/app/src/main/res/layout/spell_layout_25.xml" value="0.3625" />
+        <entry key="..\:/Users/Jhony Dev/AndroidStudioProjects/HomeTuition/app/src/main/res/layout/spell_layout_26.xml" value="0.3625" />
+        <entry key="..\:/Users/Jhony Dev/AndroidStudioProjects/HomeTuition/app/src/main/res/layout/spell_layout_27.xml" value="0.3625" />
+        <entry key="..\:/Users/Jhony Dev/AndroidStudioProjects/HomeTuition/app/src/main/res/layout/spell_layout_28.xml" value="0.3625" />
+        <entry key="..\:/Users/Jhony Dev/AndroidStudioProjects/HomeTuition/app/src/main/res/layout/spell_layout_29.xml" value="0.3625" />
         <entry key="..\:/Users/Jhony Dev/AndroidStudioProjects/HomeTuition/app/src/main/res/layout/spell_layout_3.xml" value="0.25" />
+        <entry key="..\:/Users/Jhony Dev/AndroidStudioProjects/HomeTuition/app/src/main/res/layout/spell_layout_30.xml" value="0.3625" />
+        <entry key="..\:/Users/Jhony Dev/AndroidStudioProjects/HomeTuition/app/src/main/res/layout/spell_layout_31.xml" value="0.3625" />
+        <entry key="..\:/Users/Jhony Dev/AndroidStudioProjects/HomeTuition/app/src/main/res/layout/spell_layout_32.xml" value="0.3625" />
+        <entry key="..\:/Users/Jhony Dev/AndroidStudioProjects/HomeTuition/app/src/main/res/layout/spell_layout_33.xml" value="0.3625" />
+        <entry key="..\:/Users/Jhony Dev/AndroidStudioProjects/HomeTuition/app/src/main/res/layout/spell_layout_34.xml" value="0.3625" />
+        <entry key="..\:/Users/Jhony Dev/AndroidStudioProjects/HomeTuition/app/src/main/res/layout/spell_layout_35.xml" value="0.3625" />
+        <entry key="..\:/Users/Jhony Dev/AndroidStudioProjects/HomeTuition/app/src/main/res/layout/spell_layout_36.xml" value="0.3625" />
+        <entry key="..\:/Users/Jhony Dev/AndroidStudioProjects/HomeTuition/app/src/main/res/layout/spell_layout_37.xml" value="0.3625" />
+        <entry key="..\:/Users/Jhony Dev/AndroidStudioProjects/HomeTuition/app/src/main/res/layout/spell_layout_38.xml" value="0.3625" />
+        <entry key="..\:/Users/Jhony Dev/AndroidStudioProjects/HomeTuition/app/src/main/res/layout/spell_layout_39.xml" value="0.3625" />
         <entry key="..\:/Users/Jhony Dev/AndroidStudioProjects/HomeTuition/app/src/main/res/layout/spell_layout_4.xml" value="0.25" />
+        <entry key="..\:/Users/Jhony Dev/AndroidStudioProjects/HomeTuition/app/src/main/res/layout/spell_layout_40.xml" value="0.3625" />
         <entry key="..\:/Users/Jhony Dev/AndroidStudioProjects/HomeTuition/app/src/main/res/layout/spell_layout_5.xml" value="0.25" />
         <entry key="..\:/Users/Jhony Dev/AndroidStudioProjects/HomeTuition/app/src/main/res/layout/spell_layout_6.xml" value="0.25" />
         <entry key="..\:/Users/Jhony Dev/AndroidStudioProjects/HomeTuition/app/src/main/res/layout/spell_layout_7.xml" value="0.25" />
         <entry key="..\:/Users/Jhony Dev/AndroidStudioProjects/HomeTuition/app/src/main/res/layout/spell_layout_8.xml" value="0.25" />
+        <entry key="..\:/Users/Jhony Dev/AndroidStudioProjects/HomeTuition/app/src/main/res/layout/spell_layout_9.xml" value="0.3625" />
+        <entry key="..\:/Users/Jhony Dev/AndroidStudioProjects/HomeTuition/app/src/main/res/layout/sub.xml" value="0.21302083333333333" />
         <entry key="..\:/Users/Jhony Dev/AndroidStudioProjects/HomeTuition/app/src/main/res/layout/sun_layout.xml" value="0.25" />
         <entry key="..\:/Users/Jhony Dev/AndroidStudioProjects/HomeTuition/app/src/main/res/layout/t_layout.xml" value="0.25" />
         <entry key="..\:/Users/Jhony Dev/AndroidStudioProjects/HomeTuition/app/src/main/res/layout/u_layout.xml" value="0.25" />

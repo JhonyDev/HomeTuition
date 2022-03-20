@@ -22,7 +22,7 @@
             android:orientation="vertical">
 
             <ImageView
-                android:layout_width="match_parent"
+android:id="@+id/anim31"                android:layout_width="match_parent"
                 android:layout_height="200dp"
                 android:layout_gravity="center"
                 android:background="@color/white"
@@ -38,7 +38,7 @@
             android:orientation="vertical">
 
             <ImageView
-                android:layout_width="match_parent"
+android:id="@+id/anim32"                android:layout_width="match_parent"
                 android:layout_height="200dp"
                 android:layout_gravity="center"
                 android:background="@color/white"
@@ -54,7 +54,7 @@
             android:orientation="vertical">
 
             <ImageView
-                android:layout_width="match_parent"
+android:id="@+id/anim33"                android:layout_width="match_parent"
                 android:layout_height="200dp"
                 android:layout_gravity="center"
                 android:background="@color/white"
@@ -70,7 +70,7 @@
             android:orientation="vertical">
 
             <ImageView
-                android:layout_width="match_parent"
+android:id="@+id/anim34"                android:layout_width="match_parent"
                 android:layout_height="200dp"
                 android:layout_gravity="center"
                 android:background="@color/white"
@@ -87,7 +87,7 @@
             android:orientation="vertical">
 
             <ImageView
-                android:layout_width="match_parent"
+android:id="@+id/anim35"                android:layout_width="match_parent"
                 android:layout_height="200dp"
                 android:layout_gravity="center"
                 android:background="@color/white"
@@ -104,7 +104,7 @@
             android:orientation="vertical">
 
             <ImageView
-                android:layout_width="match_parent"
+android:id="@+id/anim36"                android:layout_width="match_parent"
                 android:layout_height="200dp"
                 android:layout_gravity="center"
                 android:background="@color/white"

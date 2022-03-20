@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".activities.activities_7_9.Math79">
+    tools:context=".activities.maths.Math79">
 
     <androidx.cardview.widget.CardView
         android:id="@+id/cv"
@@ -80,6 +80,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginHorizontal="20dp"
                 android:layout_marginTop="10dp"
+                android:onClick="addSub"
                 app:cardBackgroundColor="@color/yellow_shade"
                 app:cardCornerRadius="20dp">
 
@@ -89,6 +90,7 @@
                     android:layout_gravity="center"
                     android:fontFamily="@font/architects_daughter"
                     android:gravity="center"
+                    android:onClick="addSub"
                     android:padding="10dp"
                     android:text="ADDITION AND SUBTRACTION"
                     android:textColor="@color/black"
@@ -100,6 +102,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginHorizontal="20dp"
                 android:layout_marginTop="10dp"
+                android:onClick="mulDiv"
                 app:cardBackgroundColor="@color/green_shade"
                 app:cardCornerRadius="20dp">
 
@@ -109,6 +112,7 @@
                     android:layout_gravity="center"
                     android:fontFamily="@font/architects_daughter"
                     android:gravity="center"
+                    android:onClick="mulDiv"
                     android:padding="10dp"
                     android:text="MULTIPLICATION AND DIVISION"
                     android:textColor="@color/black"
@@ -120,6 +124,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginHorizontal="20dp"
                 android:layout_marginTop="10dp"
+                android:onClick="tables"
                 app:cardBackgroundColor="@color/purple_shade"
                 app:cardCornerRadius="20dp">
 
@@ -129,6 +134,7 @@
                     android:layout_gravity="center"
                     android:fontFamily="@font/architects_daughter"
                     android:gravity="center"
+                    android:onClick="tables"
                     android:padding="10dp"
                     android:text="TABLES"
                     android:textColor="@color/black"

@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">HomeTuition</string>
+    <string name="app_name">Kids Learning</string>
     <string name="loading">Loading</string>
     <string name="select_age_group_to_continue">Select age group to continue</string>
     <string name="lt"><![CDATA[<-]]></string>

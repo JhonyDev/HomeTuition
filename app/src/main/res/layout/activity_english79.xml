@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".activities.activities_7_9.English79">
+    tools:context=".activities.english.English79">
 
     <androidx.cardview.widget.CardView
         android:id="@+id/cv"
@@ -143,6 +143,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginHorizontal="20dp"
                 android:layout_marginTop="10dp"
+                android:onClick="rhyme"
                 app:cardBackgroundColor="@color/orange_shade"
                 app:cardCornerRadius="20dp">
 
