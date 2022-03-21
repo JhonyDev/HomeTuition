@@ -28,8 +28,8 @@ public class Utils {
             mediaPlayersIds.add(context.getResources()
                     .getIdentifier(id + i, "raw", context.getPackageName()));
         }
-        initMediaPlayer(context, mediaPlayersIds.get(0));
         try {
+            initMediaPlayer(context, mediaPlayersIds.get(0));
             mp.setOnCompletionListener(mediaPlayer -> initMediaPlayer(context, mediaPlayersIds.get(1)));
         } catch (Exception e) {
             e.printStackTrace();
@@ -119,7 +119,12 @@ public class Utils {
         selectedLayout += 1;
         if (selectedLayout > (count - 1))
             selectedLayout = 0;
-        initMediaPlayer(context, mediaPlayersIds.get(selectedLayout + 1));
+
+        try {
+            initMediaPlayer(context, mediaPlayersIds.get(selectedLayout + 1));
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
 
         initVisible(llList.get(selectedLayout));
     }
@@ -142,7 +147,12 @@ public class Utils {
         selectedLayout -= 1;
         if (selectedLayout <= 0)
             selectedLayout = 0;
-        initMediaPlayer(context, mediaPlayersIds.get(selectedLayout + 1));
+
+        try {
+            initMediaPlayer(context, mediaPlayersIds.get(selectedLayout + 1));
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
 
         initVisible(llList.get(selectedLayout));
     }

@@ -13,6 +13,6 @@ public class Math47Shapes extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_math47_shapes);
-        Utils.initLayouts(this, 27, "alphabet_");
+        Utils.initLayouts(this, 0, "alphabet_");
     }
 }

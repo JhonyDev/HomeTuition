@@ -51,7 +51,8 @@ public class Math47Addition extends AppCompatActivity {
 
     private void initPrev() {
         count--;
-
+        if (count <= 0)
+            count = 1;
         refresh();
     }
 
@@ -83,24 +84,21 @@ public class Math47Addition extends AppCompatActivity {
         int id = 0;
         for (View view : views) {
             id++;
-            if (id <= 12) {
+            if (id <= 12)
                 if (id <= showGr1)
                     view.setVisibility(View.VISIBLE);
                 else
                     view.setVisibility(View.GONE);
-
-            } else if (id <= 24) {
+            else if (id <= 24)
                 if (id <= showGr2 + 12)
                     view.setVisibility(View.VISIBLE);
                 else
                     view.setVisibility(View.GONE);
-            } else if (id <= 48) {
+            else if (id <= 48)
                 if (id <= showGr3 + 24)
                     view.setVisibility(View.VISIBLE);
                 else
                     view.setVisibility(View.GONE);
-            }
-            Log.i("TAG", "refresh: " + id);
         }
         String words = showGr1 + " + " + showGr2 + " = " + showGr3;
 

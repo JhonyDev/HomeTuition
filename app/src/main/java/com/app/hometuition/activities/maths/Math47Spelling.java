@@ -13,6 +13,6 @@ public class Math47Spelling extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_math47_spelling);
-        Utils.initLayouts(this, 27, "alphabet_");
+        Utils.initLayouts(this, 0, "alphabet_");
     }
 }

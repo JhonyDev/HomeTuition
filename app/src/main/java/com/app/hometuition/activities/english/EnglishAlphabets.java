@@ -13,8 +13,6 @@ public class EnglishAlphabets extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_english_alphabets);
         Utils.initLayouts(this, 27, "alphabet_");
-
-
     }
 
 }
