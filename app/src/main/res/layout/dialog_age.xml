@@ -70,7 +70,7 @@
                     android:fontFamily="@font/architects_daughter"
                     android:gravity="center"
                     android:padding="10dp"
-                    android:text="Age 4 - 7"
+                    android:text="Age 4 - 6"
                     android:textColor="@color/black"
                     android:textSize="25sp"
                     android:textStyle="bold" />

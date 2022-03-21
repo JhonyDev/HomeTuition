@@ -14,12 +14,15 @@
         <!-- Customize your theme here. -->
     </style>
 
-    <color name="orange">#F49836</color>
+    <color name="orange">#000000</color>
     <color name="brown">#9C5522</color>
+
     <style name="Theme.HomeTuition.NoActionBar">
         <item name="windowActionBar">false</item>
         <item name="windowNoTitle">true</item>
     </style>
+
     <style name="Theme.HomeTuition.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
     <style name="Theme.HomeTuition.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
 </resources>
