@@ -13,6 +13,6 @@ public class EnglishColors extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_english_colors);
-        Utils.initLayouts(this, 5, "color_identification_");
+        Utils.initLayouts(this, 6, "color_identification_");
     }
 }

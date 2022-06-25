@@ -130,18 +130,6 @@
             android:layout_gravity="center" />
 
         <include
-            layout="@layout/rhyme_layout_2"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_gravity="center" />
-
-        <include
-            layout="@layout/rhyme_layout_3"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_gravity="center" />
-
-        <include
             layout="@layout/rhyme_layout_4"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -154,7 +142,7 @@
             android:layout_gravity="center" />
 
         <include
-            layout="@layout/rhyme_layout_6"
+            layout="@layout/rhyme_layout_3"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_gravity="center" />

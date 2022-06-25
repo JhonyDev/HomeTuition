@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".activities.activities_4_7.Urdu47">
+    tools:context=".activities.urdu.Urdu47">
 
     <androidx.cardview.widget.CardView
         android:id="@+id/cv"
@@ -71,9 +71,9 @@
                     android:id="@+id/lotie2"
                     android:layout_width="match_parent"
                     android:layout_height="250dp"
+                    android:layout_gravity="center"
                     android:scaleX="1.3"
                     android:scaleY="1.3"
-                    android:layout_gravity="center"
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintStart_toStartOf="parent"
                     app:layout_constraintTop_toTopOf="parent"
@@ -90,46 +90,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginHorizontal="20dp"
                 android:layout_marginTop="30dp"
-                app:cardBackgroundColor="@color/yellow_shade"
-                app:cardCornerRadius="20dp">
-
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_gravity="center"
-                    android:fontFamily="@font/architects_daughter"
-                    android:gravity="center"
-                    android:padding="10dp"
-                    android:text="ALPHABETS"
-                    android:textColor="@color/black"
-                    android:textSize="25sp" />
-            </com.google.android.material.card.MaterialCardView>
-
-            <com.google.android.material.card.MaterialCardView
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginHorizontal="20dp"
-                android:layout_marginTop="10dp"
-                app:cardBackgroundColor="@color/green_shade"
-                app:cardCornerRadius="20dp">
-
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_gravity="center"
-                    android:fontFamily="@font/architects_daughter"
-                    android:gravity="center"
-                    android:padding="10dp"
-                    android:text="VOWELS"
-                    android:textColor="@color/black"
-                    android:textSize="25sp" />
-            </com.google.android.material.card.MaterialCardView>
-
-            <com.google.android.material.card.MaterialCardView
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginHorizontal="20dp"
-                android:layout_marginTop="10dp"
+                android:onClick="alphabets"
                 app:cardBackgroundColor="@color/purple_shade"
                 app:cardCornerRadius="20dp">
 
@@ -140,7 +101,156 @@
                     android:fontFamily="@font/architects_daughter"
                     android:gravity="center"
                     android:padding="10dp"
-                    android:text="STORY READING"
+                    android:text="@string/alif_bay_pay"
+                    android:textColor="@color/black"
+                    android:textSize="25sp" />
+            </com.google.android.material.card.MaterialCardView>
+
+
+            <com.google.android.material.card.MaterialCardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="20dp"
+                android:layout_marginTop="10dp"
+                android:onClick="masootay"
+                app:cardBackgroundColor="@color/yellow"
+                app:cardCornerRadius="20dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:fontFamily="@font/architects_daughter"
+                    android:gravity="center"
+                    android:padding="10dp"
+                    android:text="@string/masooty"
+                    android:textColor="@color/black"
+                    android:textSize="25sp" />
+            </com.google.android.material.card.MaterialCardView>
+
+            <com.google.android.material.card.MaterialCardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="20dp"
+                android:layout_marginTop="10dp"
+                android:onClick="basicColors"
+                app:cardBackgroundColor="@color/yellow_shade"
+                app:cardCornerRadius="20dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:fontFamily="@font/architects_daughter"
+                    android:gravity="center"
+                    android:padding="10dp"
+                    android:text="@string/rang_bunyadi"
+                    android:textColor="@color/black"
+                    android:textSize="25sp" />
+            </com.google.android.material.card.MaterialCardView>
+
+            <com.google.android.material.card.MaterialCardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="20dp"
+                android:layout_marginTop="10dp"
+                android:onClick="ginti"
+                app:cardBackgroundColor="@color/yellow"
+                app:cardCornerRadius="20dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:fontFamily="@font/architects_daughter"
+                    android:gravity="center"
+                    android:padding="10dp"
+                    android:text="@string/ginti"
+                    android:textColor="@color/black"
+                    android:textSize="25sp" />
+            </com.google.android.material.card.MaterialCardView>
+
+            <com.google.android.material.card.MaterialCardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="20dp"
+                android:layout_marginTop="10dp"
+                android:onClick="janwar"
+                app:cardBackgroundColor="@color/green_shade"
+                app:cardCornerRadius="20dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:fontFamily="@font/architects_daughter"
+                    android:gravity="center"
+                    android:padding="10dp"
+                    android:text="@string/janwar"
+                    android:textColor="@color/black"
+                    android:textSize="25sp" />
+            </com.google.android.material.card.MaterialCardView>
+
+            <com.google.android.material.card.MaterialCardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="20dp"
+                android:layout_marginTop="10dp"
+                android:onClick="parinday"
+                app:cardBackgroundColor="@color/purple_shade"
+                app:cardCornerRadius="20dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:fontFamily="@font/architects_daughter"
+                    android:gravity="center"
+                    android:padding="10dp"
+                    android:text="@string/parinday"
+                    android:textColor="@color/black"
+                    android:textSize="25sp" />
+            </com.google.android.material.card.MaterialCardView>
+
+            <com.google.android.material.card.MaterialCardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="20dp"
+                android:layout_marginTop="10dp"
+                android:onClick="phal"
+                app:cardBackgroundColor="@color/yellow_shade"
+                app:cardCornerRadius="20dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:fontFamily="@font/architects_daughter"
+                    android:gravity="center"
+                    android:padding="10dp"
+                    android:text="@string/phal"
+                    android:textColor="@color/black"
+                    android:textSize="25sp" />
+            </com.google.android.material.card.MaterialCardView>
+
+            <com.google.android.material.card.MaterialCardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="20dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="150dp"
+                android:onClick="sabziya"
+                app:cardBackgroundColor="@color/green_shade"
+                app:cardCornerRadius="20dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:fontFamily="@font/architects_daughter"
+                    android:gravity="center"
+                    android:padding="10dp"
+                    android:text="@string/sabziyan"
                     android:textColor="@color/black"
                     android:textSize="25sp" />
             </com.google.android.material.card.MaterialCardView>

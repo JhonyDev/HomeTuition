@@ -3,8 +3,8 @@
     <string name="loading">Loading</string>
     <string name="select_age_group_to_continue">Select age group to continue</string>
     <string name="lt"><![CDATA[<-]]></string>
-    <string name="english_age_4_7"><![CDATA[<–  English (Age 4 – 6)]]></string>
-    <string name="english_age_7_9"><![CDATA[<–  English (Age 7 – 9)]]></string>
+    <string name="english_age_4_7"><![CDATA[<–  English (Age 4 – 5)]]></string>
+    <string name="english_age_7_9"><![CDATA[<–  English (Age 5 – 6)]]></string>
     <string name="title_activity_math47">Math_4_7</string>
     <!-- Strings used for fragments for navigation -->
     <string name="first_fragment_label">First Fragment</string>
@@ -14,13 +14,91 @@
 
     <string name="hello_first_fragment">Hello first fragment</string>
     <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
-    <string name="maths_age_4_7"><![CDATA[<–  Maths (Age 4 – 6)]]></string>
-    <string name="maths_age_7_9"><![CDATA[<–  Maths (Age 7 – 9)]]></string>
-    <string name="urdu"><![CDATA[<–  Urdu (Age 4 – 6)]]></string>
+    <string name="maths_age_4_7"><![CDATA[<–  Maths (Age 4 – 5)]]></string>
+    <string name="maths_age_7_9"><![CDATA[<–  Maths (Age 5 – 6)]]></string>
+    <string name="urdu"><![CDATA[<–  Urdu (Age 4 – 5)]]></string>
+    <string name="urdu79"><![CDATA[<–  Urdu (Age 5 – 6)]]></string>
     <string name="welcome_back">Welcome back,</string>
     <string name="lambda"><![CDATA[->]]></string>
     <string name="lambda_back"><![CDATA[<-]]></string>
     <string name="english_alphabets">English Alphabets</string>
     <string name="primary_colors">Primary Colors</string>
+    <string name="muzakkar_moanis">مذکر مونث</string>
+    <string name="alfaz_mutazad">الفاظ متضاد</string>
+    <string name="wahid_jama">واحد جمع</string>
+    <string name="ism_fail">اسم, فعل, فائل, مفعول</string>
+    <string name="hum_qafiya">ہم قافیہ</string>
+    <string name="huroof_e_alat">حرف علت</string>
+    <string name="harf_tahji">حروف تہج</string>
+    <string name="rang_bunyadi">رنگ بنیادی</string>
+    <string name="ginti">گنتی</string>
+    <string name="janwar">جانور</string>
+    <string name="parinday">پرندے</string>
+    <string name="phal">پھل</string>
+    <string name="sabziyan">سبزیاں</string>
+    <string name="alif_bay_pay">ا ب پ</string>
+
+
+    <string name="one">ایک</string>
+    <string name="two">دو</string>
+    <string name="three">تین</string>
+    <string name="four">چار</string>
+    <string name="five">پانچ</string>
+    <string name="six">چھ</string>
+    <string name="seven">سات</string>
+    <string name="eight">آٹھ</string>
+    <string name="nine">نو</string>
+    <string name="ten">دس</string>
+    <string name="eleven">گیارہ</string>
+    <string name="twelve">بارہ</string>
+    <string name="thirteen">تیرہ</string>
+    <string name="fourteen">چودہ</string>
+    <string name="fifteen">پندرہ</string>
+    <string name="sixteen">سولہ</string>
+    <string name="seventeen">سترہ</string>
+    <string name="eighteen">اٹھارہ</string>
+    <string name="nineteen">انیس</string>
+    <string name="twenty">بیس</string>
+    <string name="masooty">مصوتے</string>
+
+    <string name="u_1">ا</string>
+    <string name="u_2">ب</string>
+    <string name="u_3">پ</string>
+    <string name="u_4">ت</string>
+    <string name="u_5">ٹ</string>
+    <string name="u_6">ٹ</string>
+    <string name="u_7">ج</string>
+    <string name="u_8">چ</string>
+    <string name="u_9">ح</string>
+    <string name="u_10">خ</string>
+    <string name="u_11">د</string>
+    <string name="u_12">ڈ</string>
+    <string name="u_13">ذ</string>
+    <string name="u_14">ر</string>
+    <string name="u_15">ڑ</string>
+    <string name="u_16">ز</string>
+    <string name="u_17">ژ</string>
+    <string name="u_18">س</string>
+    <string name="u_19">ش</string>
+    <string name="u_20">ص</string>
+    <string name="u_21">ض</string>
+    <string name="u_22">ط</string>
+    <string name="u_23">ظ</string>
+    <string name="u_24">ع</string>
+    <string name="u_25">غ</string>
+    <string name="u_26">ف</string>
+    <string name="u_27">ق</string>
+    <string name="u_28">ک</string>
+    <string name="u_29">گ</string>
+    <string name="u_30">ل</string>
+    <string name="u_31">م</string>
+    <string name="u_32">ن</string>
+    <string name="u_33">ں</string>
+    <string name="u_34">و</string>
+    <string name="u_35">ہ</string>
+    <string name="u_36">ء</string>
+    <string name="u_37">ی</string>
+    <string name="u_38">ے</string>
+
 
 </resources>

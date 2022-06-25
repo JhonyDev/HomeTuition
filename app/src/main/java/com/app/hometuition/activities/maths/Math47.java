@@ -7,6 +7,8 @@ import android.view.View;
 import androidx.appcompat.app.AppCompatActivity;
 
 import com.app.hometuition.R;
+import com.app.hometuition.activities.VideoPlayerActivity;
+import com.app.hometuition.singletons.VideoSingleton;
 
 public class Math47 extends AppCompatActivity {
 
@@ -42,5 +44,10 @@ public class Math47 extends AppCompatActivity {
 
     public void shapes(View view) {
         startActivity(new Intent(this, Math47Shapes.class));
+    }
+
+    public void time_in_hours(View view) {
+        VideoSingleton.setInstance(R.raw.time_hours, "Time in hours");
+        startActivity(new Intent(this, VideoPlayerActivity.class));
     }
 }

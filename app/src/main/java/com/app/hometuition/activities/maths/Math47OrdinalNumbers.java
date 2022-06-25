@@ -9,6 +9,7 @@ import android.widget.LinearLayout;
 import androidx.appcompat.app.AppCompatActivity;
 
 import com.app.hometuition.R;
+import com.app.hometuition.utils.Utils;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -59,6 +60,7 @@ public class Math47OrdinalNumbers extends AppCompatActivity {
 
     public void initLayouts(Activity context) {
         selectedLayout = 0;
+        Utils.speak(context, Utils.ordinal(selectedLayout + 1));
         try {
             initListeners(context);
         } catch (Exception e) {
@@ -91,6 +93,7 @@ public class Math47OrdinalNumbers extends AppCompatActivity {
         selectedLayout += 1;
         if (selectedLayout > (count - 1))
             selectedLayout = 0;
+        Utils.speak(this, Utils.ordinal(selectedLayout + 1));
         initVisible(llList.get(selectedLayout));
     }
 
@@ -114,6 +117,7 @@ public class Math47OrdinalNumbers extends AppCompatActivity {
         selectedLayout -= 1;
         if (selectedLayout <= 0)
             selectedLayout = 0;
+        Utils.speak(this, Utils.ordinal(selectedLayout + 1));
         initVisible(llList.get(selectedLayout));
     }
 

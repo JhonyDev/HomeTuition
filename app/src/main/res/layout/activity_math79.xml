@@ -80,7 +80,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginHorizontal="20dp"
                 android:layout_marginTop="10dp"
-                android:onClick="addSub"
+                android:onClick="add"
                 app:cardBackgroundColor="@color/yellow_shade"
                 app:cardCornerRadius="20dp">
 
@@ -90,9 +90,9 @@
                     android:layout_gravity="center"
                     android:fontFamily="@font/architects_daughter"
                     android:gravity="center"
-                    android:onClick="addSub"
+                    android:onClick="add"
                     android:padding="10dp"
-                    android:text="ADDITION AND SUBTRACTION"
+                    android:text="ADDITION"
                     android:textColor="@color/black"
                     android:textSize="25sp" />
             </com.google.android.material.card.MaterialCardView>
@@ -102,7 +102,30 @@
                 android:layout_height="wrap_content"
                 android:layout_marginHorizontal="20dp"
                 android:layout_marginTop="10dp"
-                android:onClick="mulDiv"
+                android:onClick="sub"
+                app:cardBackgroundColor="@color/yellow"
+                app:cardCornerRadius="20dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:fontFamily="@font/architects_daughter"
+                    android:gravity="center"
+                    android:onClick="sub"
+                    android:padding="10dp"
+                    android:text="Subtraction"
+                    android:textAllCaps="true"
+                    android:textColor="@color/black"
+                    android:textSize="25sp" />
+            </com.google.android.material.card.MaterialCardView>
+
+            <com.google.android.material.card.MaterialCardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="20dp"
+                android:layout_marginTop="10dp"
+                android:onClick="mul"
                 app:cardBackgroundColor="@color/green_shade"
                 app:cardCornerRadius="20dp">
 
@@ -112,9 +135,31 @@
                     android:layout_gravity="center"
                     android:fontFamily="@font/architects_daughter"
                     android:gravity="center"
-                    android:onClick="mulDiv"
+                    android:onClick="mul"
                     android:padding="10dp"
-                    android:text="MULTIPLICATION AND DIVISION"
+                    android:text="MULTIPLICATION"
+                    android:textColor="@color/black"
+                    android:textSize="25sp" />
+            </com.google.android.material.card.MaterialCardView>
+
+            <com.google.android.material.card.MaterialCardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="20dp"
+                android:layout_marginTop="10dp"
+                android:onClick="div"
+                app:cardBackgroundColor="@color/yellow_shade"
+                app:cardCornerRadius="20dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:fontFamily="@font/architects_daughter"
+                    android:gravity="center"
+                    android:onClick="div"
+                    android:padding="10dp"
+                    android:text="DIVISION"
                     android:textColor="@color/black"
                     android:textSize="25sp" />
             </com.google.android.material.card.MaterialCardView>
@@ -139,6 +184,99 @@
                     android:text="TABLES"
                     android:textColor="@color/black"
                     android:textSize="25sp" />
+            </com.google.android.material.card.MaterialCardView>
+
+            <com.google.android.material.card.MaterialCardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="20dp"
+                android:layout_marginTop="10dp"
+                android:onClick="threeDShapes"
+                app:cardBackgroundColor="@color/yellow"
+                app:cardCornerRadius="20dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:fontFamily="@font/architects_daughter"
+                    android:gravity="center"
+                    android:onClick="threeDShapes"
+                    android:padding="10dp"
+                    android:text="2D and 3d shapes"
+                    android:textColor="@color/black"
+                    android:textSize="25sp" />
+
+            </com.google.android.material.card.MaterialCardView>
+
+            <com.google.android.material.card.MaterialCardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="20dp"
+                android:layout_marginTop="10dp"
+                android:onClick="ascending"
+                app:cardBackgroundColor="@color/green_shade"
+                app:cardCornerRadius="20dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:fontFamily="@font/architects_daughter"
+                    android:gravity="center"
+                    android:onClick="ascending"
+                    android:padding="10dp"
+                    android:text="Ascending order"
+                    android:textColor="@color/black"
+                    android:textSize="25sp" />
+
+            </com.google.android.material.card.MaterialCardView>
+
+            <com.google.android.material.card.MaterialCardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="20dp"
+                android:layout_marginTop="10dp"
+                android:onClick="descending"
+                app:cardBackgroundColor="@color/yellow_shade"
+                app:cardCornerRadius="20dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:fontFamily="@font/architects_daughter"
+                    android:gravity="center"
+                    android:onClick="descending"
+                    android:padding="10dp"
+                    android:text="Descending order"
+                    android:textColor="@color/black"
+                    android:textSize="25sp" />
+
+            </com.google.android.material.card.MaterialCardView>
+
+            <com.google.android.material.card.MaterialCardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="20dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="150dp"
+                android:onClick="even_odd"
+                app:cardBackgroundColor="@color/yellow"
+                app:cardCornerRadius="20dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:fontFamily="@font/architects_daughter"
+                    android:gravity="center"
+                    android:onClick="even_odd"
+                    android:padding="10dp"
+                    android:text="Even and Odd"
+                    android:textColor="@color/black"
+                    android:textSize="25sp" />
+
             </com.google.android.material.card.MaterialCardView>
 
         </LinearLayout>

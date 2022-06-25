@@ -78,9 +78,31 @@
             <com.google.android.material.card.MaterialCardView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:onClick="sentences"
                 android:layout_marginHorizontal="20dp"
                 android:layout_marginTop="10dp"
+                android:onClick="four"
+                app:cardBackgroundColor="@color/orange_shade"
+                app:cardCornerRadius="20dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:fontFamily="@font/architects_daughter"
+                    android:gravity="center"
+                    android:padding="10dp"
+                    android:text="four Letter words"
+                    android:textAllCaps="true"
+                    android:textColor="@color/black"
+                    android:textSize="25sp" />
+            </com.google.android.material.card.MaterialCardView>
+
+            <com.google.android.material.card.MaterialCardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="20dp"
+                android:layout_marginTop="10dp"
+                android:onClick="sentences"
                 app:cardBackgroundColor="@color/yellow_shade"
                 app:cardCornerRadius="20dp">
 
@@ -100,8 +122,8 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginHorizontal="20dp"
-                android:onClick="grammar"
                 android:layout_marginTop="10dp"
+                android:onClick="noun"
                 app:cardBackgroundColor="@color/green_shade"
                 app:cardCornerRadius="20dp">
 
@@ -112,7 +134,7 @@
                     android:fontFamily="@font/architects_daughter"
                     android:gravity="center"
                     android:padding="10dp"
-                    android:text="GRAMMAR"
+                    android:text="Noun"
                     android:textColor="@color/black"
                     android:textSize="25sp" />
             </com.google.android.material.card.MaterialCardView>
@@ -121,8 +143,156 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginHorizontal="20dp"
-                android:onClick="phonics"
                 android:layout_marginTop="10dp"
+                android:onClick="verb"
+                app:cardBackgroundColor="@color/purple_shade"
+                app:cardCornerRadius="20dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:fontFamily="@font/architects_daughter"
+                    android:gravity="center"
+                    android:padding="10dp"
+                    android:text="Verb"
+                    android:textColor="@color/black"
+                    android:textSize="25sp" />
+            </com.google.android.material.card.MaterialCardView>
+
+            <com.google.android.material.card.MaterialCardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="20dp"
+                android:layout_marginTop="10dp"
+                android:onClick="pronoun"
+                app:cardBackgroundColor="@color/yellow"
+                app:cardCornerRadius="20dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:fontFamily="@font/architects_daughter"
+                    android:gravity="center"
+                    android:padding="10dp"
+                    android:text="Pronoun"
+                    android:textColor="@color/black"
+                    android:textSize="25sp" />
+            </com.google.android.material.card.MaterialCardView>
+
+            <com.google.android.material.card.MaterialCardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="20dp"
+                android:layout_marginTop="10dp"
+                android:onClick="adverb"
+                app:cardBackgroundColor="@color/yellow_shade"
+                app:cardCornerRadius="20dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:fontFamily="@font/architects_daughter"
+                    android:gravity="center"
+                    android:padding="10dp"
+                    android:text="Adverb"
+                    android:textColor="@color/black"
+                    android:textSize="25sp" />
+            </com.google.android.material.card.MaterialCardView>
+
+            <com.google.android.material.card.MaterialCardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="20dp"
+                android:layout_marginTop="10dp"
+                android:onClick="adjective"
+                app:cardBackgroundColor="@color/purple_shade"
+                app:cardCornerRadius="20dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:fontFamily="@font/architects_daughter"
+                    android:gravity="center"
+                    android:padding="10dp"
+                    android:text="Adjective"
+                    android:textColor="@color/black"
+                    android:textSize="25sp" />
+            </com.google.android.material.card.MaterialCardView>
+
+            <com.google.android.material.card.MaterialCardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="20dp"
+                android:layout_marginTop="10dp"
+                android:onClick="the"
+                app:cardBackgroundColor="@color/green_shade"
+                app:cardCornerRadius="20dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:fontFamily="@font/architects_daughter"
+                    android:gravity="center"
+                    android:padding="10dp"
+                    android:text="The Article"
+                    android:textColor="@color/black"
+                    android:textSize="25sp" />
+            </com.google.android.material.card.MaterialCardView>
+
+            <com.google.android.material.card.MaterialCardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="20dp"
+                android:layout_marginTop="10dp"
+                android:onClick="prefix"
+                app:cardBackgroundColor="@color/yellow"
+                app:cardCornerRadius="20dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:fontFamily="@font/architects_daughter"
+                    android:gravity="center"
+                    android:padding="10dp"
+                    android:text="Prefix Suffix"
+                    android:textColor="@color/black"
+                    android:textSize="25sp" />
+            </com.google.android.material.card.MaterialCardView>
+
+            <com.google.android.material.card.MaterialCardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="20dp"
+                android:layout_marginTop="10dp"
+                android:onClick="compound"
+                app:cardBackgroundColor="@color/yellow"
+                app:cardCornerRadius="20dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:fontFamily="@font/architects_daughter"
+                    android:gravity="center"
+                    android:padding="10dp"
+                    android:text="Compund Words"
+                    android:textColor="@color/black"
+                    android:textSize="25sp" />
+            </com.google.android.material.card.MaterialCardView>
+
+
+            <com.google.android.material.card.MaterialCardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="20dp"
+                android:layout_marginTop="10dp"
+                android:onClick="phonics"
                 app:cardBackgroundColor="@color/purple_shade"
                 app:cardCornerRadius="20dp">
 
@@ -138,13 +308,14 @@
                     android:textSize="25sp" />
             </com.google.android.material.card.MaterialCardView>
 
+
             <com.google.android.material.card.MaterialCardView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginHorizontal="20dp"
                 android:layout_marginTop="10dp"
-                android:onClick="rhyme"
-                app:cardBackgroundColor="@color/orange_shade"
+                android:onClick="transport"
+                app:cardBackgroundColor="@color/yellow_shade"
                 app:cardCornerRadius="20dp">
 
                 <TextView
@@ -154,7 +325,53 @@
                     android:fontFamily="@font/architects_daughter"
                     android:gravity="center"
                     android:padding="10dp"
-                    android:text="RHYMES"
+                    android:text="Means of transportation"
+                    android:textAllCaps="true"
+                    android:textColor="@color/black"
+                    android:textSize="25sp" />
+            </com.google.android.material.card.MaterialCardView>
+
+            <com.google.android.material.card.MaterialCardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="20dp"
+                android:layout_marginTop="10dp"
+                android:onClick="opposite"
+                app:cardBackgroundColor="@color/green_shade"
+                app:cardCornerRadius="20dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:fontFamily="@font/architects_daughter"
+                    android:gravity="center"
+                    android:padding="10dp"
+                    android:text="Words opposite"
+                    android:textAllCaps="true"
+                    android:textColor="@color/black"
+                    android:textSize="25sp" />
+            </com.google.android.material.card.MaterialCardView>
+
+            <com.google.android.material.card.MaterialCardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="20dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="150dp"
+                android:onClick="singular"
+                app:cardBackgroundColor="@color/purple_shade"
+                app:cardCornerRadius="20dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:fontFamily="@font/architects_daughter"
+                    android:gravity="center"
+                    android:padding="10dp"
+                    android:text="Singular and plural"
+                    android:textAllCaps="true"
                     android:textColor="@color/black"
                     android:textSize="25sp" />
             </com.google.android.material.card.MaterialCardView>

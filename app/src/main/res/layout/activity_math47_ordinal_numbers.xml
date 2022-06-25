@@ -38,7 +38,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="20dp"
         android:fontFamily="@font/architects_daughter"
-        android:text="Spellings"
+        android:text="Ordinal numbers"
         android:textColor="@color/orange"
         android:textSize="30sp"
         android:textStyle="bold"

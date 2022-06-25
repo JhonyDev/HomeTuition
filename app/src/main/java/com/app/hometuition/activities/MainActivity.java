@@ -9,12 +9,16 @@ import androidx.appcompat.app.AppCompatActivity;
 import androidx.cardview.widget.CardView;
 
 import com.app.hometuition.R;
+import com.app.hometuition.TTSSingleton;
 import com.app.hometuition.activities.english.English47;
-import com.app.hometuition.activities.maths.Math47;
-import com.app.hometuition.activities.activities_4_7.Urdu47;
 import com.app.hometuition.activities.english.English79;
+import com.app.hometuition.activities.maths.Math47;
 import com.app.hometuition.activities.maths.Math79;
-import com.app.hometuition.activities.activities_7_9.Urdu79;
+import com.app.hometuition.activities.quiz.EnglishQuiz;
+import com.app.hometuition.activities.quiz.MathQuizActivity;
+import com.app.hometuition.activities.quiz.UrduQuizActivity;
+import com.app.hometuition.activities.urdu.Urdu47;
+import com.app.hometuition.activities.urdu.Urdu79;
 import com.app.hometuition.utils.DialogUtils;
 
 public class MainActivity extends AppCompatActivity {
@@ -28,6 +32,7 @@ public class MainActivity extends AppCompatActivity {
         DialogUtils.setDefaultDialogProperties(ageDialog);
         CardView cv47 = ageDialog.findViewById(R.id.cv_age_4_7);
         CardView cv79 = ageDialog.findViewById(R.id.cv_age_7_9);
+        CardView cvQuiz = ageDialog.findViewById(R.id.cv_quiz);
         cv79.setOnClickListener(view -> {
             ageDialog.dismiss();
             switch (selection) {
@@ -56,6 +61,21 @@ public class MainActivity extends AppCompatActivity {
                     break;
             }
         });
+        cvQuiz.setOnClickListener(view -> {
+            ageDialog.dismiss();
+            switch (selection) {
+                case 1:
+                    startActivity(new Intent(this, EnglishQuiz.class));
+                    break;
+                case 2:
+                    startActivity(new Intent(this, MathQuizActivity.class));
+                    break;
+                case 3:
+                    startActivity(new Intent(this, UrduQuizActivity.class));
+                    break;
+            }
+        });
+
     }
 
     @Override
@@ -64,6 +84,9 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
         ageDialog = new Dialog(this);
         initAgeDialog();
+
+        TTSSingleton.getInstance(this);
+        TTSSingleton.getUrduInstance(this);
 
     }
 

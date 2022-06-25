@@ -2,6 +2,7 @@ package com.app.hometuition.activities.maths;
 
 import android.os.Bundle;
 import android.os.Handler;
+import android.speech.tts.TextToSpeech;
 import android.view.View;
 import android.widget.TextView;
 
@@ -9,17 +10,20 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import com.app.hometuition.R;
 import com.app.hometuition.utils.NumberToWords;
+import com.app.hometuition.utils.Utils;
 
 public class Math47Counting extends AppCompatActivity {
 
     TextView tv1;
     int count = 1;
+    TextToSpeech tts;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_math47_counting);
         tv1 = findViewById(R.id.tv1);
+
         findViewById(R.id.fl).setOnClickListener(view ->
                 initNext());
         findViewById(R.id.next).setOnClickListener(view ->
@@ -29,6 +33,7 @@ public class Math47Counting extends AppCompatActivity {
         findViewById(R.id.textView2).setOnClickListener(view ->
                 finish());
         refresh();
+
     }
 
     private void initPrev() {
@@ -42,11 +47,13 @@ public class Math47Counting extends AppCompatActivity {
         for (int i = 1; i <= 100; i++) {
             View view = findViewById(getResources()
                     .getIdentifier("anim" + i, "id", getPackageName()));
-            if (i <= count)
+            if (i <= count) {
                 view.animate().alpha(1).setDuration(200);
-            else {
+                view.setVisibility(View.VISIBLE);
+            } else {
                 view.setAlpha(0);
                 view.setTranslationY(10);
+                view.setVisibility(View.GONE);
             }
 
             if (i == count) {
@@ -57,6 +64,7 @@ public class Math47Counting extends AppCompatActivity {
         }
 
         String words = NumberToWords.convert(count) + " " + count;
+        Utils.speak(this, String.valueOf(count));
         tv1.setText(words);
     }
 
@@ -66,4 +74,5 @@ public class Math47Counting extends AppCompatActivity {
             count = 100;
         refresh();
     }
+
 }

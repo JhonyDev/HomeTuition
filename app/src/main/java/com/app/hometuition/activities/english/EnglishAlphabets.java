@@ -1,6 +1,8 @@
 package com.app.hometuition.activities.english;
 
 import android.os.Bundle;
+import android.util.Log;
+import android.view.View;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -14,5 +16,4 @@ public class EnglishAlphabets extends AppCompatActivity {
         setContentView(R.layout.activity_english_alphabets);
         Utils.initLayouts(this, 27, "alphabet_");
     }
-
 }

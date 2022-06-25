@@ -7,6 +7,8 @@ import android.view.View;
 import androidx.appcompat.app.AppCompatActivity;
 
 import com.app.hometuition.R;
+import com.app.hometuition.activities.VideoPlayerActivity;
+import com.app.hometuition.singletons.VideoSingleton;
 
 public class English47 extends AppCompatActivity {
 
@@ -44,4 +46,31 @@ public class English47 extends AppCompatActivity {
     public void months(View view) {
         startActivity(new Intent(this, EnglishMonths.class));
     }
+
+    public void abcUpper(View view) {
+        startActivity(new Intent(this, UpperCaseActivity.class));
+    }
+
+    public void abcLower(View view) {
+        startActivity(new Intent(this, LowerCaseActivity.class));
+    }
+
+    public void vowels(View view) {
+        VideoSingleton.setInstance(R.raw.vowels, "Vowels");
+        startActivity(new Intent(this, VideoPlayerActivity.class));
+    }
+
+    public void three(View view) {
+        startActivity(new Intent(this, ThreeLetterWords.class));
+
+    }
+
+    public void aAndAn(View view) {
+        startActivity(new Intent(this, AAndAnActivity.class));
+    }
+
+    public void rhyme(View view) {
+        startActivity(new Intent(this, EnglishRhyme.class));
+    }
+
 }

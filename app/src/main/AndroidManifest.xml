@@ -10,6 +10,94 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.HomeTuition">
         <activity
+            android:name=".activities.quiz.MathQuizActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activities.quiz.UrduQuizActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activities.quiz.EnglishQuiz"
+            android:exported="false" />
+        <activity
+            android:name=".activities.urdu.MosamActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activities.english.OppositeActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activities.english.LowerCaseActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activities.english.UpperCaseActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activities.urdu.UrduMasootay"
+            android:exported="false" />
+        <activity
+            android:name=".activities.maths.EvenOddActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activities.maths.Math79Shapes"
+            android:exported="false" />
+        <activity
+            android:name=".activities.maths.AscendingActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activities.maths.DescendingActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activities.maths.Math7Div"
+            android:exported="false" />
+        <activity
+            android:name=".activities.maths.Math7Mul"
+            android:exported="false" />
+        <activity
+            android:name=".activities.maths.Math79Subtraction"
+            android:exported="false" />
+        <activity
+            android:name=".activities.maths.Math79Addition"
+            android:exported="false" />
+        <activity
+            android:name=".activities.urdu.UrduCountingActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activities.english.SingularPluralActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activities.english.TransportationActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activities.english.FourLetterActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activities.english.ThreeLetterWords"
+            android:exported="false" />
+        <activity
+            android:name=".activities.english.AAndAnActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activities.urdu.UrduSabziyan"
+            android:exported="false" />
+        <activity
+            android:name=".activities.urdu.UrduPhal"
+            android:exported="false" />
+        <activity
+            android:name=".activities.urdu.UrduJanwar"
+            android:exported="false" />
+        <activity
+            android:name=".activities.urdu.UrduParinday"
+            android:exported="false" />
+        <activity
+            android:name=".activities.urdu.UrduBasicColors"
+            android:exported="false" />
+        <activity
+            android:name=".activities.urdu.UrduAlphabets"
+            android:exported="false" />
+        <activity
+            android:name=".activities.VideoPlayerActivity"
+            android:exported="false"
+            android:screenOrientation="landscape" />
+        <activity
             android:name=".activities.maths.Math47Shapes"
             android:exported="true" />
         <activity
@@ -70,7 +158,7 @@
             android:name=".activities.english.EnglishAlphabets"
             android:exported="true" />
         <activity
-            android:name=".activities.activities_7_9.Urdu79"
+            android:name=".activities.urdu.Urdu79"
             android:exported="true" />
         <activity
             android:name=".activities.maths.Math79"
@@ -79,7 +167,7 @@
             android:name=".activities.english.English79"
             android:exported="true" />
         <activity
-            android:name=".activities.activities_4_7.Urdu47"
+            android:name=".activities.urdu.Urdu47"
             android:exported="true" />
         <activity
             android:name=".activities.english.English47"

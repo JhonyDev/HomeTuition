@@ -95,6 +95,7 @@
                     android:textColor="@color/black"
                     android:textSize="25sp" />
             </com.google.android.material.card.MaterialCardView>
+
             <com.google.android.material.card.MaterialCardView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -119,9 +120,9 @@
             <com.google.android.material.card.MaterialCardView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:onClick="addition"
                 android:layout_marginHorizontal="20dp"
                 android:layout_marginTop="10dp"
+                android:onClick="addition"
                 app:cardBackgroundColor="@color/green_shade"
                 app:cardCornerRadius="20dp">
 
@@ -136,12 +137,13 @@
                     android:textColor="@color/black"
                     android:textSize="25sp" />
             </com.google.android.material.card.MaterialCardView>
+
             <com.google.android.material.card.MaterialCardView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginHorizontal="20dp"
-                android:onClick="sub"
                 android:layout_marginTop="10dp"
+                android:onClick="sub"
                 app:cardBackgroundColor="@color/yellow_shade"
                 app:cardCornerRadius="20dp">
 
@@ -153,6 +155,27 @@
                     android:gravity="center"
                     android:padding="10dp"
                     android:text="SUBTRACTION"
+                    android:textColor="@color/black"
+                    android:textSize="25sp" />
+            </com.google.android.material.card.MaterialCardView>
+
+            <com.google.android.material.card.MaterialCardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="20dp"
+                android:layout_marginTop="10dp"
+                android:onClick="time_in_hours"
+                app:cardBackgroundColor="@color/yellow"
+                app:cardCornerRadius="20dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:fontFamily="@font/architects_daughter"
+                    android:gravity="center"
+                    android:padding="10dp"
+                    android:text="Time in hours"
                     android:textColor="@color/black"
                     android:textSize="25sp" />
             </com.google.android.material.card.MaterialCardView>
@@ -182,8 +205,9 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginHorizontal="20dp"
-                android:onClick="shapes"
                 android:layout_marginTop="10dp"
+                android:layout_marginBottom="200dp"
+                android:onClick="shapes"
                 app:cardBackgroundColor="@color/orange_shade"
                 app:cardCornerRadius="20dp">
 

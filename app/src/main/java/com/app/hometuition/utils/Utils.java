@@ -4,15 +4,21 @@ import android.app.Activity;
 import android.content.Context;
 import android.media.MediaPlayer;
 import android.os.Handler;
+import android.speech.tts.TextToSpeech;
+import android.util.Log;
 import android.view.View;
+import android.widget.GridLayout;
 import android.widget.LinearLayout;
 
 import com.app.hometuition.R;
+import com.app.hometuition.TTSSingleton;
+import com.app.hometuition.info.Info;
 
 import java.util.ArrayList;
 import java.util.List;
+import java.util.Random;
 
-public class Utils {
+public class Utils implements Info {
     private static int selectedLayout = 0;
     private static List<LinearLayout> llList;
     private static int count = 8;
@@ -24,13 +30,17 @@ public class Utils {
         selectedLayout = 0;
         Utils.context = context;
         mediaPlayersIds = new ArrayList<>();
-        for (int i = 1; i <= playerCount; i++) {
+        for (int i = 1; i <= playerCount; i++)
             mediaPlayersIds.add(context.getResources()
                     .getIdentifier(id + i, "raw", context.getPackageName()));
-        }
+
         try {
             initMediaPlayer(context, mediaPlayersIds.get(0));
-            mp.setOnCompletionListener(mediaPlayer -> initMediaPlayer(context, mediaPlayersIds.get(1)));
+            try {
+                mp.setOnCompletionListener(mediaPlayer -> initMediaPlayer(context, mediaPlayersIds.get(1)));
+            } catch (Exception e) {
+                e.printStackTrace();
+            }
         } catch (Exception e) {
             e.printStackTrace();
         }
@@ -45,25 +55,30 @@ public class Utils {
             llList.clear();
 
         llList = new ArrayList<>();
-
-        for (int i = 1; ; i++) {
+        boolean isFirst = true;
+        for (int i = 1; i < 60; i++) {
             LinearLayout view = context.findViewById(context.getResources()
                     .getIdentifier("ll_" + i, "id", context.getPackageName()));
-            if (view == null) {
-                count = i - 1;
-                break;
-            }
 
-            if (i == 1)
+            if (view == null)
+                continue;
+            if (isFirst) {
                 view.setAlpha(1);
-            else
+                isFirst = false;
+            } else
                 view.setAlpha(0);
             llList.add(view);
         }
+
+        count = llList.size();
         initAnimations(context);
     }
 
     private static void initListeners(Activity context) {
+        Log.i(TAG, "initListeners: ");
+        context.findViewById(R.id.lotie2).setOnClickListener(view ->
+                initAudio());
+
         context.findViewById(R.id.fl).setOnClickListener(view ->
                 initNext());
         context.findViewById(R.id.next).setOnClickListener(view ->
@@ -74,14 +89,51 @@ public class Utils {
                 context.finish());
         context.findViewById(R.id.cl).setOnClickListener(view ->
                 initNext());
+
+    }
+
+
+    private static void initAudio() {
+        Log.i(TAG, "initAudio: ");
+        initMediaPlayer(context, mediaPlayersIds.get(selectedLayout + 1));
+    }
+
+    public static void speak(Context context, String str) {
+        TTSSingleton.getInstance(context).speak(str, TextToSpeech.QUEUE_FLUSH, null);
+
+    }
+
+    public static void speakUrdu(Context context, String str) {
+        Log.i(TAG, "speakUrdu: " + str);
+        TTSSingleton.getUrduInstance(context).speak(str, TextToSpeech.QUEUE_FLUSH, null);
+
+    }
+
+    public static void initQuiz(Activity context) {
+        List<View> llList = new ArrayList<>();
+        for (int i = 1; i < 10; i++) {
+            LinearLayout view = context.findViewById(context.getResources()
+                    .getIdentifier("ll_" + i, "id", context.getPackageName()));
+
+            if (view == null)
+                continue;
+            llList.add(view);
+        }
+        Random random = new Random();
+        int randomNumber = random.nextInt(5);
+        for (int i = 0; i < llList.size(); i++)
+            if (randomNumber == i)
+                llList.get(i).setVisibility(View.VISIBLE);
+            else
+                llList.get(i).setVisibility(View.GONE);
     }
 
     private static void initAnimations(Activity context) {
-        for (int i = 1; ; i++) {
+        for (int i = 1; i < 1000; i++) {
             View view = context.findViewById(context.getResources()
                     .getIdentifier("anim" + i, "id", context.getPackageName()));
             if (view == null)
-                break;
+                continue;
             new Handler().postDelayed(() -> initAnim(view), i * 500L);
         }
     }
@@ -119,7 +171,6 @@ public class Utils {
         selectedLayout += 1;
         if (selectedLayout > (count - 1))
             selectedLayout = 0;
-
         try {
             initMediaPlayer(context, mediaPlayersIds.get(selectedLayout + 1));
         } catch (Exception e) {
@@ -129,7 +180,7 @@ public class Utils {
         initVisible(llList.get(selectedLayout));
     }
 
-    private static void initMediaPlayer(Context context, int id) {
+    public static MediaPlayer initMediaPlayer(Context context, int id) {
         if (mp != null) {
             mp.stop();
             mp.release();
@@ -141,6 +192,7 @@ public class Utils {
         } catch (Exception e) {
             e.printStackTrace();
         }
+        return mp;
     }
 
     private static void initPrev() {
@@ -157,4 +209,30 @@ public class Utils {
         initVisible(llList.get(selectedLayout));
     }
 
+    public static void initSumGrids(Activity math47Addition) {
+        GridLayout grid1 = math47Addition.findViewById(R.id.grid_1);
+        GridLayout grid2 = math47Addition.findViewById(R.id.grid_2);
+        GridLayout grid3 = math47Addition.findViewById(R.id.grid_3);
+
+        grid1.setAlpha(0);
+        grid2.setAlpha(0);
+        grid3.setAlpha(0);
+
+        grid1.animate().alpha(1).setDuration(1000);
+        new Handler().postDelayed(() -> grid2.animate().alpha(1).setDuration(1000), 1000);
+        new Handler().postDelayed(() -> grid3.animate().alpha(1).setDuration(1000), 2000);
+
+    }
+
+    public static String ordinal(int i) {
+        String[] suffixes = new String[]{"th", "st", "nd", "rd", "th", "th", "th", "th", "th", "th"};
+        switch (i % 100) {
+            case 11:
+            case 12:
+            case 13:
+                return i + "th";
+            default:
+                return i + suffixes[i % 10];
+        }
+    }
 }

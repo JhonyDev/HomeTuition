@@ -38,7 +38,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="20dp"
         android:fontFamily="@font/architects_daughter"
-        android:text="Spellings"
+        android:text="Shapes"
         android:textColor="@color/orange"
         android:textSize="30sp"
         android:textStyle="bold"
@@ -62,18 +62,26 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_gravity="center" />
+
         <include
             layout="@layout/shapes_layout_2"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_gravity="center" />
+
         <include
             layout="@layout/shapes_layout_3"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_gravity="center" />
+
         <include
             layout="@layout/shapes_layout_4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center" />
+        <include
+            layout="@layout/shapes_layout_5"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_gravity="center" />

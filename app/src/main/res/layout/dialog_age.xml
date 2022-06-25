@@ -31,21 +31,21 @@
                 android:layout_marginTop="10dp"
                 android:layout_marginEnd="20sp"
                 android:gravity="start"
-                app:lottie_speed="0.5"
                 android:textColor="@color/white"
                 android:textSize="18sp"
                 app:lottie_autoPlay="true"
                 app:lottie_rawRes="@raw/trilo_4"
                 app:lottie_repeatCount="99999"
-                app:lottie_repeatMode="restart" />
+                app:lottie_repeatMode="restart"
+                app:lottie_speed="0.5" />
 
             <TextView
                 android:layout_width="300dp"
                 android:layout_height="wrap_content"
                 android:fontFamily="@font/architects_daughter"
+                android:gravity="center"
                 android:text="@string/select_age_group_to_continue"
                 android:textColor="@color/black"
-                android:gravity="center"
                 android:textSize="28sp"
                 android:textStyle="bold" />
 
@@ -54,8 +54,8 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
-                android:gravity="center"
                 android:layout_marginTop="10dp"
+                android:gravity="center"
                 android:text="@string/loading"
                 android:textColor="@color/black"
                 android:textSize="18sp"
@@ -70,7 +70,7 @@
                     android:fontFamily="@font/architects_daughter"
                     android:gravity="center"
                     android:padding="10dp"
-                    android:text="Age 4 - 6"
+                    android:text="Age 4 - 5"
                     android:textColor="@color/black"
                     android:textSize="25sp"
                     android:textStyle="bold" />
@@ -99,7 +99,34 @@
                     android:fontFamily="@font/architects_daughter"
                     android:gravity="center"
                     android:padding="10dp"
-                    android:text="Age 7 - 9"
+                    android:text="Age 5 - 6"
+                    android:textColor="@color/black"
+                    android:textSize="25sp"
+                    android:textStyle="bold" />
+            </com.google.android.material.card.MaterialCardView>
+
+            <com.google.android.material.card.MaterialCardView
+                android:id="@+id/cv_quiz"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:gravity="center"
+                android:text="@string/loading"
+                android:textColor="@color/black"
+                android:textSize="18sp"
+                app:cardBackgroundColor="@color/green_shade"
+                app:cardCornerRadius="20dp"
+                app:cardElevation="0dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:fontFamily="@font/architects_daughter"
+                    android:gravity="center"
+                    android:padding="10dp"
+                    android:text="Quiz"
                     android:textColor="@color/black"
                     android:textSize="25sp"
                     android:textStyle="bold" />
