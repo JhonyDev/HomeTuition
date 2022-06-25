@@ -158,6 +158,7 @@ public class TransportationActivity extends AppCompatActivity {
         }
     }
 
+
     private static void initPrev() {
         selectedLayout -= 1;
         if (selectedLayout <= 0)
