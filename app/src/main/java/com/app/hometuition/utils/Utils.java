@@ -100,13 +100,14 @@ public class Utils implements Info {
 
     public static void speak(Context context, String str) {
         TTSSingleton.getInstance(context).speak(str, TextToSpeech.QUEUE_FLUSH, null);
-
     }
 
     public static void speakUrdu(Context context, String str) {
-        Log.i(TAG, "speakUrdu: " + str);
-        TTSSingleton.getUrduInstance(context).speak(str, TextToSpeech.QUEUE_FLUSH, null);
+        new Handler().postDelayed(() -> TTSSingleton.getUrduInstance(context).speak(str, TextToSpeech.QUEUE_FLUSH, null), 500);
+    }
 
+    public static void speakHindi(Context context, String str) {
+        new Handler().postDelayed(() -> TTSSingleton.getHindiInstance(context).speak(str, TextToSpeech.QUEUE_FLUSH, null), 500);
     }
 
     public static void initQuiz(Activity context) {

@@ -175,19 +175,19 @@ public class UrduSabziyan extends AppCompatActivity {
     public static void speak() {
         switch (selectedLayout + 1) {
             case 1:
-                Utils.speakUrdu(context, "آلو");
+                Utils.speakHindi(context, "आलू");
                 break;
             case 2:
-                Utils.speakUrdu(context, "پیاز");
+                Utils.speakHindi(context, "प्याज़");
                 break;
             case 3:
-                Utils.speakUrdu(context, "پالک");
+                Utils.speakHindi(context, "पालक");
                 break;
             case 4:
-                Utils.speakUrdu(context, "ٹماٹر");
+                Utils.speakHindi(context, "टमाटर");
                 break;
             case 5:
-                Utils.speakUrdu(context, "مرچ");
+                Utils.speakHindi(context, "मिर्च");
                 break;
         }
     }

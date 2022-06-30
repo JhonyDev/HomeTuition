@@ -87,6 +87,7 @@ public class MainActivity extends AppCompatActivity {
 
         TTSSingleton.getInstance(this);
         TTSSingleton.getUrduInstance(this);
+        TTSSingleton.getHindiInstance(this);
 
     }
 
