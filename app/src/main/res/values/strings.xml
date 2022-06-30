@@ -74,18 +74,18 @@
     <string name="u_11">دال</string>
     <string name="u_12">ڈال</string>
     <string name="u_13">ذال</string>
-    <string name="u_14">را</string>
-    <string name="u_15">ڑا</string>
-    <string name="u_16">زا</string>
-    <string name="u_17">ژا</string>
+    <string name="u_14">رے</string>
+    <string name="u_15">ڑے</string>
+    <string name="u_16">زے</string>
+    <string name="u_17">ژے</string>
     <string name="u_18">سین</string>
     <string name="u_19">شین</string>
-    <string name="u_20">صاد</string>
-    <string name="u_21">ضاد</string>
-    <string name="u_22">طا</string>
-    <string name="u_23">ظا</string>
+    <string name="u_20">صواد</string>
+    <string name="u_21">ضواد</string>
+    <string name="u_22">طویے</string>
+    <string name="u_23">ظویے</string>
     <string name="u_24">عین</string>
-    <string name="u_25">غین</string>
+    <string name="u_25">غاین</string>
     <string name="u_26">فے</string>
     <string name="u_27">قاف</string>
     <string name="u_28">کاف</string>
@@ -93,11 +93,11 @@
     <string name="u_30">لام</string>
     <string name="u_31">میم</string>
     <string name="u_32">نون</string>
-    <string name="u_33">نون گنا</string>
-    <string name="u_34">واو</string>
+    <string name="u_33">واو</string>
+    <string name="u_34">ہے</string>
     <string name="u_35">ہے</string>
     <string name="u_36">ہمذا</string>
-    <string name="u_37">یا</string>
+    <string name="u_37">چھوٹی یے بڑی یے</string>
     <string name="u_38">ے</string>
 
 
