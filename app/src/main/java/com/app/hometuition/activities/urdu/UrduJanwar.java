@@ -184,7 +184,7 @@ public class UrduJanwar extends AppCompatActivity {
                 Utils.speakUrdu(context, "بلی");
                 break;
             case 4:
-                Utils.speakUrdu(context, "چوہا");
+                Utils.speakHindi(context, "चूहा");
                 break;
         }
     }

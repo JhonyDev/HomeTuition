@@ -144,10 +144,10 @@ public class UrduMasootay extends AppCompatActivity {
                 Utils.speakUrdu(context, context.getResources().getString(R.string.u_1));
                 break;
             case 2:
-                Utils.speakUrdu(context, context.getResources().getString(R.string.u_34));
+                Utils.speakUrdu(context, context.getResources().getString(R.string.u_33));
                 break;
             case 3:
-                Utils.speakUrdu(context, context.getResources().getString(R.string.u_38));
+                Utils.speakUrdu(context, context.getResources().getString(R.string.u_36));
                 break;
 
         }

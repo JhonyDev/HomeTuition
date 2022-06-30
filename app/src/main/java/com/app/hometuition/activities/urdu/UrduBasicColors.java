@@ -184,7 +184,7 @@ public class UrduBasicColors extends AppCompatActivity {
                 Utils.speakUrdu(context, "سبز");
                 break;
             case 4:
-                Utils.speakUrdu(context, "پیلا");
+                Utils.speakHindi(context, "पीला");
                 break;
             case 5:
                 Utils.speakUrdu(context, "نارنجی");

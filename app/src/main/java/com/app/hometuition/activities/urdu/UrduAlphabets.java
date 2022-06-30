@@ -148,12 +148,29 @@ public class UrduAlphabets extends AppCompatActivity {
             e.printStackTrace();
         }
         try {
-            Log.i("TAG", "initNext: " + "u_" + (selectedLayout + 1));
-            int res_id = context.getResources()
-                    .getIdentifier("u_" + (selectedLayout + 1), "string", context.getPackageName());
-            Log.i("TAG", "initNext: " + selectedLayout);
-            Log.i("TAG", "initNext: " + context.getResources().getString(res_id));
-            Utils.speakUrdu(context, context.getResources().getString(res_id));
+            if (selectedLayout + 1 == 17) {
+                try {
+                    initMediaPlayer(context, R.raw.jay);
+                } catch (Exception e) {
+                    e.printStackTrace();
+                }
+            } else if (selectedLayout + 1 == 22) {
+                try {
+                    initMediaPlayer(context, R.raw.tuae);
+                } catch (Exception e) {
+                    e.printStackTrace();
+                }
+            } else if (selectedLayout + 1 == 23) {
+                try {
+                    initMediaPlayer(context, R.raw.zuae);
+                } catch (Exception e) {
+                    e.printStackTrace();
+                }
+            } else {
+                int res_id = context.getResources()
+                        .getIdentifier("u_" + (selectedLayout + 1), "string", context.getPackageName());
+                Utils.speakUrdu(context, context.getResources().getString(res_id));
+            }
         } catch (Exception e) {
             e.printStackTrace();
         }
@@ -184,9 +201,23 @@ public class UrduAlphabets extends AppCompatActivity {
         } catch (Exception e) {
             e.printStackTrace();
         }
-        int res_id = context.getResources()
-                .getIdentifier("u_" + (selectedLayout + 1), "string", context.getPackageName());
-        Utils.speakUrdu(context, context.getResources().getString(res_id));
+        if (selectedLayout + 1 == 22) {
+            try {
+                initMediaPlayer(context, R.raw.tuae);
+            } catch (Exception e) {
+                e.printStackTrace();
+            }
+        } else if (selectedLayout + 1 == 23) {
+            try {
+                initMediaPlayer(context, R.raw.zuae);
+            } catch (Exception e) {
+                e.printStackTrace();
+            }
+        } else {
+            int res_id = context.getResources()
+                    .getIdentifier("u_" + (selectedLayout + 1), "string", context.getPackageName());
+            Utils.speakUrdu(context, context.getResources().getString(res_id));
+        }
         initVisible(llList.get(selectedLayout));
     }
 

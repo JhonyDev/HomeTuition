@@ -184,7 +184,7 @@ public class UrduPhal extends AppCompatActivity {
                 Utils.speakUrdu(context, "انار");
                 break;
             case 4:
-                Utils.speakUrdu(context, "کینو");
+                Utils.speakHindi(context, "केनो");
                 break;
             case 5:
                 Utils.speakUrdu(context, "تربوز");

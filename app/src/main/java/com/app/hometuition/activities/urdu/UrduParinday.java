@@ -178,13 +178,17 @@ public class UrduParinday extends AppCompatActivity {
                 Utils.speakUrdu(context, "مور");
                 break;
             case 2:
-                Utils.speakUrdu(context, "کوا");
+                try {
+                    initMediaPlayer(context, R.raw.kawa);
+                } catch (Exception e) {
+                    e.printStackTrace();
+                }
                 break;
             case 3:
-                Utils.speakUrdu(context, "طوطا");
+                Utils.speakHindi(context, "तोता");
                 break;
             case 4:
-                Utils.speakUrdu(context, "اللو");
+                Utils.speakHindi(context, "उल्लू");
                 break;
         }
     }
